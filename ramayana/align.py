@@ -122,12 +122,21 @@ def download_audio(text_url_map, audio_output_dir):
 
 
 def create_text_audio_map():
-    text_src_dir = r"../../misc/purANam/content/rAmAyaNam/AndhrapAThaH/"
+    text_src_dir = r"../../misc/purANam/content/rAmAyaNam/AndhradrAviDapAThau/"
     clean_text_dir = "cleaned"
     audio_output_dir = "audio"
+    exclude_list = ['6_yuddhakANDam/10_indrajit/089']
 
     text_url_map = parse_files(text_src_dir, clean_text_dir)
-    text_audio_map = download_audio(text_url_map, audio_output_dir)
+    text_audio_map_ = download_audio(text_url_map, audio_output_dir)
+
+    text_audio_map = []
+    for i, (text, audio) in enumerate(text_audio_map_):
+        for s in exclude_list:
+            if s in text:
+                break
+        else:
+            text_audio_map.append((text, audio))
 
     with open('text_audio_map.csv', 'w',
               encoding='utf-8', newline='') as csvfile:
