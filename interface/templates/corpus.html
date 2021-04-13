@@ -3,37 +3,38 @@
     <div class="row">
         <div class="col-sm-3">
             <div class="accordion rounded scroll" id="corpus_list">
-                {% if not data.corpus %}{% set expanded = true %}{% endif %}
-                {% for corpus in data.corpora %}
-                {% if data.corpus == corpus %}{% set expanded = true %}{% endif %}
+                {% set ns = namespace(expanded=false) %}
+                {% if not data.corpus %}{% set ns.expanded = true %}{% endif %}
+                {% for corpus in data.corpora.values() %}
+                {% if data.corpus.id == corpus.id %}{% set ns.expanded = true %}{% endif %}
                 <div class="accordion-item">
                     <div class="accordion-header">
-                        <button class="accordion-button {% if not expanded %}collapsed{% endif %}" type="button"
-                            data-bs-toggle="collapse" data-bs-target="#chapter_list_{{corpus}}"
-                            aria-expanded="{{expanded}}" aria-controls="chapter_list_{{corpus}}">
-                            {{corpus}}
+                        <button class="accordion-button {% if not ns.expanded %}collapsed{% endif %}" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#chapter_list_{{corpus.id}}"
+                            aria-expanded="{{ns.expanded}}" aria-controls="chapter_list_{{corpus.id}}">
+                            {{corpus.name}}
                         </button>
                     </div>
-                    <div id="chapter_list_{{corpus}}"
-                        class="list-group list-group-flush collapse {% if expanded %}show{% endif %}"
+                    <div id="chapter_list_{{corpus.id}}"
+                        class="list-group list-group-flush collapse {% if ns.expanded %}show{% endif %}"
                         data-parent="#corpus_list">
-                        {% for row in data.corpora[corpus].data.values() %}
-                        <a class="list-group-item list-group-item-action {% if data.key == row.key %} active{% endif %}"
-                            href="{{url_for('show_corpus', corpus=corpus, key=row.key)}}">
+                        {% for row in data.corpora[corpus.id].data.values() %}
+                        <a class="list-group-item list-group-item-action {% if data.chapter.id == row.id %} active{% endif %}"
+                            href="{{url_for('show_corpus', corpus_id=corpus.id, chapter_id=row.id)}}">
                             {{row.name}}
                         </a>
                         {% endfor %}
                     </div>
                 </div>
-                {% if expanded %}{% set expanded = false %}{% endif %}
+                {% if ns.expanded %}{% set ns.expanded = false %}{% endif %}
                 {% endfor %}
             </div>
         </div>
         <div class="col-sm">
-            {% if data.key %}
+            {% if data.chapter %}
             <div class="card d-flex flex-column">
                 <div class="card-header">
-                    {{data.name}}
+                    {{data.chapter.name}}
                 </div>
                 <div id="audio-container" class="card-body bg-light border-bottom">
                     <audio controls id="audio" src="{{data.audio}}"></audio>
@@ -50,6 +51,21 @@
                     {% endfor %}
                 </div>
             </div>
+            {% else %}
+                {% for corpus in data.corpora.values() %}
+                <div class="row pb-2">
+                    <div class="col-sm">
+                        <div class="card">
+                            <div class="card-header">
+                                {{corpus.name}}
+                            </div>
+                            <div class="card-body">
+                                {{corpus.description | safe}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
             {% endif %}
         </div>
     </div>
