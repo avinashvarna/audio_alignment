@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "key": "pm01-10",
+      "name": "Meghad\u016bta 01-10",
+      "audio_url": "https://archive.org/download/meghadUta-mUlam-vedabhoomi.org/Pm01-10.mp3",
+      "word_alignment": "word_alignment/Pm01-10.json",
+      "sentence_alignment": "sentence_alignment/Pm01-10.json"
+    },
+    {
+      "key": "pm11-20",
+      "name": "Meghad\u016bta 11-20",
+      "audio_url": "https://archive.org/download/meghadUta-mUlam-vedabhoomi.org/Pm11-20.mp3",
+      "word_alignment": "word_alignment/Pm11-20.json",
+      "sentence_alignment": "sentence_alignment/Pm11-20.json"
+    },
+    {
+      "key": "pm21-30",
+      "name": "Meghad\u016bta 21-30",
+      "audio_url": "https://archive.org/download/meghadUta-mUlam-vedabhoomi.org/Pm21-30.mp3",
+      "word_alignment": "word_alignment/Pm21-30.json",
+      "sentence_alignment": "sentence_alignment/Pm21-30.json"
+    },
+    {
+      "key": "pm31-40",
+      "name": "Meghad\u016bta 31-40",
+      "audio_url": "https://archive.org/download/meghadUta-mUlam-vedabhoomi.org/Pm31-40.mp3",
+      "word_alignment": "word_alignment/Pm31-40.json",
+      "sentence_alignment": "sentence_alignment/Pm31-40.json"
+    },
+    {
+      "key": "pm41-50",
+      "name": "Meghad\u016bta 41-50",
+      "audio_url": "https://archive.org/download/meghadUta-mUlam-vedabhoomi.org/Pm41-50.mp3",
+      "word_alignment": "word_alignment/Pm41-50.json",
+      "sentence_alignment": "sentence_alignment/Pm41-50.json"
+    },
+    {
+      "key": "pm51-63",
+      "name": "Meghad\u016bta 51-63",
+      "audio_url": "https://archive.org/download/meghadUta-mUlam-vedabhoomi.org/Pm51-63.mp3",
+      "word_alignment": "word_alignment/Pm51-63.json",
+      "sentence_alignment": "sentence_alignment/Pm51-63.json"
+    }
+  ]
+}

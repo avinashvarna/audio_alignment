@@ -1,0 +1,66 @@
+{% include "header.html" %}
+<div class="container-fluid p-3">
+    <div class="row">
+        <div class="col-sm-3">
+            <div class="accordion rounded scroll" id="corpus_list">
+                {% if not data.corpus %}{% set expanded = true %}{% endif %}
+                {% for corpus in data.corpora %}
+                {% if data.corpus == corpus %}{% set expanded = true %}{% endif %}
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <button class="accordion-button {% if not expanded %}collapsed{% endif %}" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#chapter_list_{{corpus}}"
+                            aria-expanded="{{expanded}}" aria-controls="chapter_list_{{corpus}}">
+                            {{corpus}}
+                        </button>
+                    </div>
+                    <div id="chapter_list_{{corpus}}"
+                        class="list-group list-group-flush collapse {% if expanded %}show{% endif %}"
+                        data-parent="#corpus_list">
+                        {% for row in data.corpora[corpus].data.values() %}
+                        <a class="list-group-item list-group-item-action {% if data.key == row.key %} active{% endif %}"
+                            href="{{url_for('show_corpus', corpus=corpus, key=row.key)}}">
+                            {{row.name}}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% if expanded %}{% set expanded = false %}{% endif %}
+                {% endfor %}
+            </div>
+        </div>
+        <div class="col-sm">
+            {% if data.key %}
+            <div class="card d-flex flex-column">
+                <div class="card-header">
+                    {{data.name}}
+                </div>
+                <div id="audio-container" class="card-body bg-light border-bottom">
+                    <audio controls id="audio" src="{{data.audio}}"></audio>
+                </div>
+                <div id="text-container" class="card-body scroll">
+                    {% for line in data.lines %}
+                    <p>
+                        {% for word in line %}
+                        <span class="align-text m-0" data-begin="{{word.begin}}" data-end="{{word.end}}">
+                            {{word.lines | join(' ')}}
+                        </span>
+                        {% endfor %}
+                    </p>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</div>
+<script>
+    var scrolls = document.getElementsByClassName('scroll');
+    for (const scroll of scrolls) {
+        //Get the distance from the top and add 20px for the padding
+        var maxHeight = scroll.getBoundingClientRect().top + 20;
+        scroll.style.height = "calc(100vh - " + maxHeight + "px)";
+    }
+</script>
+<script src="/static/js/align.js"></script>
+{% include "footer.html" %}
