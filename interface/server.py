@@ -28,7 +28,6 @@ CORPUS_DIR = os.path.dirname(SERVER_DIR)
 DATA_FILENAME = 'data.json'
 
 CORPUS_DATA_FILES = glob.glob(os.path.join(CORPUS_DIR, '*', DATA_FILENAME))
-CORPUS_DATA_FILES = CORPUS_DATA_FILES[1:]
 
 ###############################################################################
 
