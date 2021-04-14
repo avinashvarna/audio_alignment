@@ -33,18 +33,23 @@
         <div class="col-sm">
             {% if data.chapter %}
             <div class="card d-flex flex-column">
-                <div class="card-header">
+                <div class="card-header lead">
                     {{data.chapter.name}}
                 </div>
                 <div id="audio-container" class="card-body bg-light border-bottom">
                     <audio controls id="audio" src="{{data.audio}}"></audio>
                 </div>
                 <div id="text-container" class="card-body scroll">
-                    {% for line in data.lines %}
+                    {% for paragraph in data.content %}
                     <p>
-                        {% for word in line %}
-                        <span class="align-text m-0" data-begin="{{word.begin}}" data-end="{{word.end}}">
-                            {{word.lines | join(' ')}}
+                        {% for line in paragraph %}
+                        <span class="my-1">
+                            {% for word in line %}
+                            <span class="align-text m-0" data-begin="{{word.begin}}" data-end="{{word.end}}">
+                                {{word.lines | join(' ')}}
+                            </span>
+                            {% endfor %}
+                            <br>
                         </span>
                         {% endfor %}
                     </p>
@@ -52,20 +57,20 @@
                 </div>
             </div>
             {% else %}
-                {% for corpus in data.corpora.values() %}
-                <div class="row pb-2">
-                    <div class="col-sm">
-                        <div class="card">
-                            <div class="card-header">
-                                {{corpus.name}}
-                            </div>
-                            <div class="card-body">
-                                {{corpus.description | safe}}
-                            </div>
+            {% for corpus in data.corpora.values() %}
+            <div class="row pb-2">
+                <div class="col-sm">
+                    <div class="card">
+                        <div class="card-header lead">
+                            {{corpus.name}}
+                        </div>
+                        <div class="card-body">
+                            {{corpus.description | safe}}
                         </div>
                     </div>
                 </div>
-                {% endfor %}
+            </div>
+            {% endfor %}
             {% endif %}
         </div>
     </div>
@@ -78,5 +83,5 @@
         scroll.style.height = "calc(100vh - " + maxHeight + "px)";
     }
 </script>
-<script src="/static/js/align.js"></script>
+<script src="{{url_for('static', filename='js/align.js')}}"></script>
 {% include "footer.html" %}

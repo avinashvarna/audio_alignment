@@ -1,6 +1,6 @@
 {
   "name": "Rāmāyaṇa",
-  "description": "Vālmiki Rāmāyaṇa\n<br>\n<b>Text Source</b>:\n<br>\n<b>Audio Source</b>:\n<br>\n<b>Aligned by</b>:",
+  "description": "Vālmiki Rāmāyaṇa\n<br>\nText Source: <a href='https://github.com/vvasuki/purANam/tree/master/content/rAmAyaNam/AndhrapAThaH'>https://github.com/vvasuki/purANam/tree/master/content/rAmAyaNam/AndhrapAThaH</a>\n<br>\nAudio Source: <a href='https://archive.org/download/Ramayana-recitation-Sriram-harisItArAmamUrti-Ghanapaati-v2/'>https://archive.org/download/Ramayana-recitation-Sriram-harisItArAmamUrti-Ghanapaati-v2/</a>\n<br>\nAligned by: Avinash Varna",
   "data": [
     {
       "id": "1.001",

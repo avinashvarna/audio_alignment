@@ -6,7 +6,7 @@ function highlight(text) {
         'border', 'border-warning', 'rounded',
         'bg-light',
         'lead',
-        'p-1', 'mx-1'
+        'px-1', 'mx-1'
     ];
     if (highlighted) {
         for (const active_class of active_text_classes) {

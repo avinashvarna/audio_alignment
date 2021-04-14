@@ -112,23 +112,38 @@ def show_corpus(corpus_id=None, chapter_id=None):
         with open(word_alignment_file) as f:
             word_alignment = json.load(f)
 
-        lines = []
+        # content = list of paragraphs
+        # paragraph = list of lines
+        content = []
+        current_paragraph = []
         current_line = []
         last_s = 1
+        last_p = 1
         for fragment in word_alignment['fragments']:
             fragment_id = fragment['id']
             match = re.match(r'^p(\d+)s(\d+)w(\d+)$', fragment_id)
             if match:
+                p = int(match.group(1))
                 s = int(match.group(2))
                 if s > last_s:
-                    lines.append(current_line)
+                    current_paragraph.append(current_line)
                     current_line = []
+                    last_s = s
+                if p > last_p:
+                    current_paragraph.append(current_line)
+                    content.append(current_paragraph)
+                    current_paragraph = []
+                    current_line = []
+                    last_p = p
                     last_s = s
             current_line.append(fragment)
 
-        lines.append(current_line)
+        if current_line:
+            current_paragraph.append(current_line)
+        if current_paragraph:
+            content.append(current_paragraph)
 
-        data['lines'] = lines
+        data['content'] = content
 
     return render_template("corpus.html", data=data)
 
