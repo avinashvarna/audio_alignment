@@ -28,6 +28,7 @@ CORPUS_DIR = os.path.dirname(SERVER_DIR)
 DATA_FILENAME = 'data.json'
 
 CORPUS_DATA_FILES = glob.glob(os.path.join(CORPUS_DIR, '*', DATA_FILENAME))
+CORPUS_DATA_FILES = CORPUS_DATA_FILES[1:]
 
 ###############################################################################
 
@@ -150,7 +151,7 @@ def show_corpus(corpus_id=None, chapter_id=None):
 
 @webapp.route("/")
 def home():
-    return redirect(url_for('show_corpus'))
+    return render_template("about.html")
 
 ###############################################################################
 
