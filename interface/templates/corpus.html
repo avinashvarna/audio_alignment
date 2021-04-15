@@ -4,7 +4,7 @@
         <div class="col-sm-3">
             <div class="accordion rounded scroll" id="corpus_list">
                 {% set ns = namespace(expanded=false) %}
-                {% if not data.corpus %}{% set ns.expanded = true %}{% endif %}
+                {% if not data.corpus %}{% set ns.expanded = false %}{% endif %}
                 {% for corpus in data.corpora.values() %}
                 {% if data.corpus.id == corpus.id %}{% set ns.expanded = true %}{% endif %}
                 <div class="accordion-item">

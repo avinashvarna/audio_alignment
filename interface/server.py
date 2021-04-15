@@ -36,7 +36,7 @@ def load_corpora():
     """Load Corpus Information"""
     corpora = {}
     for corpus_data_file in natsorted(CORPUS_DATA_FILES):
-        with open(corpus_data_file) as f:
+        with open(corpus_data_file, encoding='utf-8') as f:
             corpus_data = json.load(f)
 
         corpus_path = os.path.dirname(corpus_data_file)
@@ -109,7 +109,7 @@ def show_corpus(corpus_id=None, chapter_id=None):
             corpus_path, chapter['word_alignment']
         )
 
-        with open(word_alignment_file) as f:
+        with open(word_alignment_file, encoding='utf-8') as f:
             word_alignment = json.load(f)
 
         # content = list of paragraphs
