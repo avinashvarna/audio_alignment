@@ -1,10 +1,9 @@
 {% include "header.html" %}
 <div class="container-fluid p-3">
     <div class="row">
-        <div class="col-sm-3">
-            <div class="accordion rounded scroll" id="corpus_list">
+        <div class="col-sm-3" id="column-navigation">
+            <div class="accordion rounded overflow-auto" id="corpus_list">
                 {% set ns = namespace(expanded=false) %}
-                {% if not data.corpus %}{% set ns.expanded = false %}{% endif %}
                 {% for corpus in data.corpora.values() %}
                 {% if data.corpus.id == corpus.id %}{% set ns.expanded = true %}{% endif %}
                 <div class="accordion-item">
@@ -30,16 +29,16 @@
                 {% endfor %}
             </div>
         </div>
-        <div class="col-sm">
+        <div class="col-sm" id="column-text">
             {% if data.chapter %}
             <div class="card d-flex flex-column">
                 <div class="card-header lead">
                     {{data.chapter.name}}
                 </div>
-                <div id="audio-container" class="card-body bg-light border-bottom">
+                <div id="audio-container" class="card-body bg-light border-bottom sticky-top">
                     <audio controls id="audio" src="{{data.audio}}"></audio>
                 </div>
-                <div id="text-container" class="card-body scroll">
+                <div id="text-container" class="card-body overflow-auto">
                     {% for paragraph in data.content %}
                     <p>
                         {% for line in paragraph %}
@@ -76,11 +75,25 @@
     </div>
 </div>
 <script>
-    var scrolls = document.getElementsByClassName('scroll');
-    for (const scroll of scrolls) {
-        //Get the distance from the top and add 20px for the padding
-        var maxHeight = scroll.getBoundingClientRect().top + 20;
-        scroll.style.height = "calc(100vh - " + maxHeight + "px)";
+    // Elements
+    const column_navigation = document.querySelector('#column-navigation');
+    const column_text = document.querySelector('#column-text');
+    const corpus_list = document.querySelector('#corpus_list');
+    const text_container = document.querySelector('#text-container');
+
+    // Functions
+    function occupy_available_height(element) {
+        // Occupy available height on the client's screen
+
+        // Get the distance from the top and add 20px for the padding
+        var max_height = element.getBoundingClientRect().top + 20;
+        var available_height = "calc(100vh - " + max_height + "px)";
+        element.style.height = available_height;
+    }
+    // If the columns are rendered side-by-side, i.e. view port can accommodate both
+    if (column_navigation.getBoundingClientRect().top == column_text.getBoundingClientRect().top) {
+        occupy_available_height(corpus_list);
+        occupy_available_height(text_container);
     }
 </script>
 <script src="{{url_for('static', filename='js/align.js')}}"></script>
