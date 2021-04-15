@@ -23,9 +23,6 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .scroll {
-            overflow-y: auto;
-        }
     </style>
 
 </head>
@@ -33,9 +30,8 @@
 <body>
 <div class="container-fluid p-3">
     <div class="row">
-        <div class="col-sm-3">
-            <div class="accordion rounded scroll" id="corpus_list">
-                
+        <div class="col-sm-3" id="column-navigation">
+            <div class="accordion rounded overflow-auto" id="corpus_list">
                 
                 
                 
@@ -2951,16 +2947,16 @@
                 
             </div>
         </div>
-        <div class="col-sm">
+        <div class="col-sm" id="column-text">
             
             <div class="card d-flex flex-column">
                 <div class="card-header lead">
                     3.033: Ravana Nirbhartha Sanaa
                 </div>
-                <div id="audio-container" class="card-body bg-light border-bottom">
+                <div id="audio-container" class="card-body bg-light border-bottom sticky-top">
                     <audio controls id="audio" src="https://archive.org/download/Ramayana-recitation-Sriram-harisItArAmamUrti-Ghanapaati-v2/Kanda_3/Kanda_3_ARK-033-Ravana_Nirbhartha_Sanaa.mp3"></audio>
                 </div>
-                <div id="text-container" class="card-body scroll">
+                <div id="text-container" class="card-body overflow-auto">
                     
                     <p>
                         
@@ -4157,11 +4153,25 @@
     </div>
 </div>
 <script>
-    var scrolls = document.getElementsByClassName('scroll');
-    for (const scroll of scrolls) {
-        //Get the distance from the top and add 20px for the padding
-        var maxHeight = scroll.getBoundingClientRect().top + 20;
-        scroll.style.height = "calc(100vh - " + maxHeight + "px)";
+    // Elements
+    const column_navigation = document.querySelector('#column-navigation');
+    const column_text = document.querySelector('#column-text');
+    const corpus_list = document.querySelector('#corpus_list');
+    const text_container = document.querySelector('#text-container');
+
+    // Functions
+    function occupy_available_height(element) {
+        // Occupy available height on the client's screen
+
+        // Get the distance from the top and add 20px for the padding
+        var max_height = element.getBoundingClientRect().top + 20;
+        var available_height = "calc(100vh - " + max_height + "px)";
+        element.style.height = available_height;
+    }
+    // If the columns are rendered side-by-side, i.e. view port can accommodate both
+    if (column_navigation.getBoundingClientRect().top == column_text.getBoundingClientRect().top) {
+        occupy_available_height(corpus_list);
+        occupy_available_height(text_container);
     }
 </script>
 <script src="/audio_alignment/static/js/align.js"></script>
