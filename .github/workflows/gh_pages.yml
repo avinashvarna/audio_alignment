@@ -25,7 +25,7 @@ jobs:
     - name: Build
       run: |
         cd interface
-        python freeze.py
+        python freeze.py --base-url "https://avinashvarna.github.io/audio_alignment"
         cp -r static build/
 
     - name: Deploy
