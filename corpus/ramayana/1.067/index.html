@@ -44,7 +44,7 @@
                         </button>
                     </div>
                     <div id="chapter_list_ashtadhyayi"
-                        class="list-group list-group-flush collapse "
+                        class="list-group list-group-flush overflow-auto collapse "
                         data-parent="#corpus_list">
                         
                         <a class="list-group-item list-group-item-action "
@@ -221,7 +221,7 @@
                         </button>
                     </div>
                     <div id="chapter_list_meghaduta"
-                        class="list-group list-group-flush collapse "
+                        class="list-group list-group-flush overflow-auto collapse "
                         data-parent="#corpus_list">
                         
                         <a class="list-group-item list-group-item-action "
@@ -268,7 +268,7 @@
                         </button>
                     </div>
                     <div id="chapter_list_ramayana"
-                        class="list-group list-group-flush collapse show"
+                        class="list-group list-group-flush overflow-auto collapse show"
                         data-parent="#corpus_list">
                         
                         <a class="list-group-item list-group-item-action "
@@ -4289,23 +4289,63 @@
     const column_text = document.querySelector('#column-text');
     const corpus_list = document.querySelector('#corpus_list');
     const text_container = document.querySelector('#text-container');
+    const active_element = document.querySelector('.active');
+
+    // Condition
+    // If the columns are rendered side-by-side, i.e. view port can accommodate both
+    const large_display = column_navigation.getBoundingClientRect().top == column_text.getBoundingClientRect().top;
+    const rows_to_display = (large_display) ? 5 : 3;
 
     // Functions
     function occupy_available_height(element) {
-        // Occupy available height on the client's screen
-
+        /* Occupy available height on the client's screen */
+        if (!element) {
+            return false;
+        }
         // Get the distance from the top and add 20px for the padding
         var max_height = element.getBoundingClientRect().top + 20;
         var available_height = "calc(100vh - " + max_height + "px)";
         element.style.height = available_height;
+        return true;
     }
-    // If the columns are rendered side-by-side, i.e. view port can accommodate both
-    if (column_navigation.getBoundingClientRect().top == column_text.getBoundingClientRect().top) {
+
+    function limit_corpus_height(element) {
+        const row_height = element.querySelector('.list-group-item').clientHeight;
+        const max_height = rows_to_display * row_height;
+        const current_height = element.querySelector('.list-group').clientHeight;
+        console.log(current_height);
+        console.log(max_height);
+        if (current_height > max_height) {
+            element.querySelector('.list-group').style.height = `${max_height}px`;
+        }
+    }
+
+    // Actions
+    if (large_display) {
         occupy_available_height(corpus_list);
         occupy_available_height(text_container);
+    } else {
+        column_text.classList.add('pt-3');
+    }
+
+    for (const element of document.getElementsByClassName('accordion-item')) {
+        limit_corpus_height(element);
+    }
+    for (const element of document.getElementsByClassName('accordion-item')) {
+        element.addEventListener('shown.bs.collapse', function() {
+            limit_corpus_height(element);
+        });
+    }
+    if (active_element) {
+        active_element.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
     }
 </script>
+
 <script src="/audio_alignment/static/js/align.js"></script>
+
 
 </body>
 </html>
