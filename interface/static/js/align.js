@@ -70,8 +70,8 @@ function highlight(text) {
         // Loop Logic
         const loop_active = loop_toggle_button.checked;
         if (loop_active && !audio_element.paused) {
-            const loop_start = loop_start_button.dataset.time;
-            const loop_end = loop_end_button.dataset.time;
+            const loop_start = parseFloat(loop_start_button.dataset.time);
+            const loop_end = parseFloat(loop_end_button.dataset.time);
 
             if ((loop_start != null) && (loop_end != null)) {
                 if (loop_start < loop_end) {
