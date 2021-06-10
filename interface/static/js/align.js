@@ -108,13 +108,13 @@ function highlight(text) {
         const loop_active = loop_toggle_button.checked;
 
         if (loop_active) {
-            loop_toggle_label.classList.remove("btn-warning");
+            loop_toggle_label.classList.remove("btn-secondary");
             loop_toggle_label.classList.add("btn-success");
             loop_toggle_label.innerHTML = 'Loop (ON)';
             console.log("Loop turned ON");
         } else {
             loop_toggle_label.classList.remove("btn-success");
-            loop_toggle_label.classList.add("btn-warning");
+            loop_toggle_label.classList.add("btn-secondary");
             loop_toggle_label.innerHTML = 'Loop (OFF)';
             console.log("Loop turned OFF");
         }
