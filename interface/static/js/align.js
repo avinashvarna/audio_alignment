@@ -48,8 +48,14 @@ function highlight(text) {
 // Main
 
 {
+    // Element Selectors
     const audio_element = document.getElementById("audio");
     const text_elements = document.getElementsByClassName('align-text');
+
+    const loop_toggle_button = document.querySelector('#loop-toggle');
+    const loop_start_button = document.querySelector('#loop-start');
+    const loop_end_button = document.querySelector('#loop-end');
+    const loop_toggle_label = document.querySelector('#loop-toggle-label');
 
     // Set up handlers for click on text
     for (const text of text_elements) {
@@ -61,6 +67,22 @@ function highlight(text) {
     // Note: This event can fire several times a second, so keep this handler light.
     // https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement/timeupdate_event
     audio_element.ontimeupdate = (event) => {
+        // Loop Logic
+        const loop_active = loop_toggle_button.checked;
+        if (loop_active && !audio_element.paused) {
+            const loop_start = loop_start_button.dataset.time;
+            const loop_end = loop_end_button.dataset.time;
+
+            if ((loop_start != null) && (loop_end != null)) {
+                if (loop_start < loop_end) {
+                    if (audio_element.currentTime >= loop_end) {
+                        console.log("End of loop reached. Restarting ..");
+                        audio_element.currentTime = loop_start;
+                    }
+                }
+            }
+        }
+
         // // Don't run this more than every 100 ms.
         // if (new Date() - lastRan < 100) return;
         // lastRan = new Date();
@@ -77,6 +99,46 @@ function highlight(text) {
         }
         if (seenLine) highlight(seenLine);
     }
+
+    /* ************************************************ */
+    //  Loop Management
+    /* ************************************************ */
+
+    loop_toggle_button.addEventListener('click', function() {
+        const loop_active = loop_toggle_button.checked;
+
+        if (loop_active) {
+            loop_toggle_label.classList.remove("btn-warning");
+            loop_toggle_label.classList.add("btn-success");
+            loop_toggle_label.innerHTML = 'Loop (ON)';
+            console.log("Loop turned ON");
+        } else {
+            loop_toggle_label.classList.remove("btn-success");
+            loop_toggle_label.classList.add("btn-warning");
+            loop_toggle_label.innerHTML = 'Loop (OFF)';
+            console.log("Loop turned OFF");
+        }
+
+        loop_start_button.dataset.time = null;
+        loop_start_button.innerHTML = 'A';
+        loop_start_button.disabled = !loop_active;
+
+        loop_end_button.dataset.time = null;
+        loop_end_button.innerHTML = 'B';
+        loop_end_button.disabled = !loop_active;
+    });
+
+    loop_start_button.addEventListener('click', function() {
+        loop_start_button.dataset.time = audio_element.currentTime.toFixed(2);
+        loop_start_button.innerHTML = loop_start_button.dataset.time;
+        console.log(`Loop Start: ${loop_start_button.dataset.time}`);
+    });
+
+    loop_end_button.addEventListener('click', function() {
+        loop_end_button.dataset.time = audio_element.currentTime.toFixed(2);
+        loop_end_button.innerHTML = loop_end_button.dataset.time;
+        console.log(`Loop End: ${loop_end_button.dataset.time}`);
+    });
 
     /* ************************************************ */
     //  Keyboard Shorctuts
