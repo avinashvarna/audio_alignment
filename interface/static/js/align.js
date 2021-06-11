@@ -44,6 +44,12 @@ function highlight(text) {
     highlighted_sentence = text.parentNode;
 }
 
+function human_time(seconds) {
+    var seconds = parseFloat(seconds);
+    var iso_time = new Date(seconds * 1000).toISOString();
+    return (seconds > 3600) ? iso_time.substr(11, 8) : iso_time.substr(14, 5);
+}
+
 /* ************************************************************************* */
 // Main
 
@@ -129,14 +135,14 @@ function highlight(text) {
     });
 
     loop_start_button.addEventListener('click', function() {
-        loop_start_button.dataset.time = audio_element.currentTime.toFixed(2);
-        loop_start_button.innerHTML = loop_start_button.dataset.time;
+        loop_start_button.dataset.time = audio_element.currentTime.toFixed(3);
+        loop_start_button.innerHTML = human_time(loop_start_button.dataset.time);
         console.log(`Loop Start: ${loop_start_button.dataset.time}`);
     });
 
     loop_end_button.addEventListener('click', function() {
-        loop_end_button.dataset.time = audio_element.currentTime.toFixed(2);
-        loop_end_button.innerHTML = loop_end_button.dataset.time;
+        loop_end_button.dataset.time = audio_element.currentTime.toFixed(3);
+        loop_end_button.innerHTML = human_time(loop_end_button.dataset.time);
         console.log(`Loop End: ${loop_end_button.dataset.time}`);
     });
 
