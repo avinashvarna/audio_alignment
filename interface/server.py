@@ -10,24 +10,12 @@ Created on Tue Apr 13 02:52:57 2021
 
 import re
 import os
-import glob
 import json
 
 from flask import Flask, render_template, url_for, redirect
 from natsort import natsorted
 
-###############################################################################
-# Configuration
-# TODO:
-# - Move this out to settings.py
-# - settings.py should use os.environ.get('VARNAME', 'default-value') format
-#   for the ability to configure through shell
-
-SERVER_DIR = os.path.dirname(os.path.realpath(__file__))
-CORPUS_DIR = os.path.dirname(SERVER_DIR)
-DATA_FILENAME = 'data.json'
-
-CORPUS_DATA_FILES = glob.glob(os.path.join(CORPUS_DIR, '*', DATA_FILENAME))
+from settings import CONFIG as cfg
 
 ###############################################################################
 
@@ -35,7 +23,7 @@ CORPUS_DATA_FILES = glob.glob(os.path.join(CORPUS_DIR, '*', DATA_FILENAME))
 def load_corpora():
     """Load Corpus Information"""
     corpora = {}
-    for corpus_data_file in natsorted(CORPUS_DATA_FILES):
+    for corpus_data_file in natsorted(cfg.CORPUS_DATA_FILES):
         with open(corpus_data_file, encoding='utf-8') as f:
             corpus_data = json.load(f)
 
@@ -62,7 +50,7 @@ CORPORA = load_corpora()
 ###############################################################################
 
 webapp = Flask(__name__)
-webapp.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'audio-alignment')
+webapp.config['SECRET_KEY'] = cfg.SECRET_KEY
 webapp.url_map.strict_slashes = False
 
 ###############################################################################
