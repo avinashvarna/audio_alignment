@@ -3039,8 +3039,7 @@ Aligned by: Avinash Varna
         const row_height = element.querySelector('.list-group-item').clientHeight;
         const max_height = rows_to_display * row_height;
         const current_height = element.querySelector('.list-group').clientHeight;
-        console.log(current_height);
-        console.log(max_height);
+        // console.log(`current_height = ${current_height}, max_height = ${max_height}`);
         if (current_height > max_height) {
             element.querySelector('.list-group').style.height = `${max_height}px`;
         }

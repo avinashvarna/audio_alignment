@@ -2954,7 +2954,19 @@
                     2.095: Mandakini Soundaryam Adhika Pataha
                 </div>
                 <div id="audio-container" class="card-body bg-light border-bottom sticky-top">
-                    <audio controls id="audio" src="https://archive.org/download/Ramayana-recitation-Sriram-harisItArAmamUrti-Ghanapaati-v2/Kanda_2/Kanda_2_AYK-095-Mandakini_Soundaryam_Adhika_Pataha.mp3"></audio>
+                    <div class="row">
+                        <div class="col-sm">
+                            <audio controls id="audio" src="https://archive.org/download/Ramayana-recitation-Sriram-harisItArAmamUrti-Ghanapaati-v2/Kanda_2/Kanda_2_AYK-095-Mandakini_Soundaryam_Adhika_Pataha.mp3"></audio>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="btn-group float-end" role="group" aria-label="Loop Controls">
+                                <input type="checkbox" class="btn-check" id="loop-toggle" autocomplete="off">
+                                <label id="loop-toggle-label" class="btn btn-sm btn-secondary" for="loop-toggle">Loop (OFF)</label>
+                                <button type="button" class="btn btn-sm btn-secondary" id="loop-start" title="Loop Start" disabled>A</button>
+                                <button type="button" class="btn btn-sm btn-secondary" id="loop-end" title="Loop End" disabled>B</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div id="text-container" class="card-body overflow-auto">
                     
@@ -3828,8 +3840,7 @@
         const row_height = element.querySelector('.list-group-item').clientHeight;
         const max_height = rows_to_display * row_height;
         const current_height = element.querySelector('.list-group').clientHeight;
-        console.log(current_height);
-        console.log(max_height);
+        // console.log(`current_height = ${current_height}, max_height = ${max_height}`);
         if (current_height > max_height) {
             element.querySelector('.list-group').style.height = `${max_height}px`;
         }
