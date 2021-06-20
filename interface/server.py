@@ -77,8 +77,11 @@ def show_corpus(corpus_id=None, chapter_id=None):
     data['corpus'] = {}
     data['chapter'] = {}
 
-    if corpus_id is not None and corpus_id not in CORPORA:
-        return redirect(url_for('show_corpus'))
+    if corpus_id is not None:
+        if corpus_id not in CORPORA:
+            return redirect(url_for('show_corpus'))
+        else:
+            data['corpus'] = CORPORA[corpus_id]
 
     if chapter_id is not None:
         corpus_path = CORPORA[corpus_id]['path']
