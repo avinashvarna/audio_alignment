@@ -5,12 +5,23 @@ Align audio to text
 @author: Avinash Varna
 """
 
+import re
 import json
 from functools import partial
 
 from aeneas.executetask import ExecuteTask
 from aeneas.task import Task
 from aeneas.runtimeconfiguration import RuntimeConfiguration
+
+
+def clean(text_path, clean_text_path):
+    "Prepare text for alignment (Ignore text written in [square-brackets])"
+    with open(text_path, encoding="utf-8") as f:
+        content = f.read()
+
+    clean_content = re.sub(r"\[.*?\]", "", content)
+    with open(clean_text_path, mode="w", encoding="utf-8") as f:
+        f.write(clean_content)
 
 
 def align(text_path, audio_path, align_out_path, word_align=True):
