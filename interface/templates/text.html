@@ -1,0 +1,40 @@
+{% if data.structure_from == 'text' %}
+{% for paragraph in data.hierarchy %}
+    {% set paragraph_index = loop.index %}
+    <{{paragraph.tag}} id="{{paragraph.id}}" class="paragraph-unit" data-begin="{{data.alignment[paragraph.id].begin}}" data-end="{{data.alignment[paragraph.id].end}}">
+        {% for sentence in paragraph.data %}
+        {% set sentence_index = loop.index %}
+        <{{sentence.tag}} id="{{sentence.id}}" class="my-1 sentence-unit" data-begin="{{data.alignment[sentence.id].begin}}" data-end="{{data.alignment[sentence.id].end}}">
+            {% for word in sentence.data %}
+            {% set word_index = loop.index %}
+            {% if word.id %}
+            <{{word.tag}} id="{{word.id}}" class="align-text m-0 word-unit" data-begin="{{data.alignment[word.id].begin}}" data-end="{{data.alignment[word.id].end}}">
+                {{word.text}}
+            </{{word.tag}}>
+            {% else %}
+            <{{word.tag}} class="m-0">
+                {{word.text}}
+            </{{word.tag}}>
+            {% endif %}
+            {% endfor %}
+            <br>
+        </{{sentence.tag}}>
+        {% endfor %}
+    </{{paragraph.tag}}>
+{% endfor %}
+{% elif data.structure_from == 'alignment' %}
+    {% for paragraph in data.hierarchy %}
+    <p class="paragraph-unit" data-begin="{{paragraph[0][0].begin}}" data-end="{{paragraph[-1][-1].end}}">
+        {% for line in paragraph %}
+        <span class="my-1 sentence-unit" data-begin="{{line[0].begin}}" data-end="{{line[-1].end}}">
+            {% for word in line %}
+            <span class="align-text m-0 word-unit" data-begin="{{word.begin}}" data-end="{{word.end}}">
+                {{word.lines | join(' ')}}
+            </span>
+            {% endfor %}
+            <br>
+        </span>
+        {% endfor %}
+    </p>
+    {% endfor %}
+{% endif %}
