@@ -73,7 +73,7 @@ function human_time(seconds) {
     // Anuccharana Mode Variables
     storage.removeItem("current_unit_end");
     if (!storage.getItem("mode")) {
-        storage.setItem("mode", "sentence-2");
+        storage.setItem("mode", "paragraph-1");
     }
     mode_selector.value = storage.getItem("mode");
     var current_iteration = 1;
