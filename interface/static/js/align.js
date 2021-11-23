@@ -106,6 +106,24 @@ function human_time(seconds) {
         if (seenLine) highlight(seenLine);
     }
 
+
+    /* ************************************************ */
+    //  Playback Speed
+    /* ************************************************ */
+
+    const speed_input = document.querySelector('#speed');
+    const speed_display = document.querySelector('#speed-display');
+    const displayvalue = val => {
+        return parseFloat(val) + 'x';
+    }
+
+    audio_element.playbackRate = speed_input.value;
+    speed_display.innerText = displayvalue(audio_element.playbackRate);
+    speed_input.addEventListener('change', e => {
+        audio_element.playbackRate = speed_input.value;
+        speed_display.innerText = displayvalue(speed_input.value);
+    });
+
     /* ************************************************ */
     //  Loop Management
     /* ************************************************ */
