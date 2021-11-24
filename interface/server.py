@@ -273,6 +273,12 @@ def show_corpus(corpus_id=None, chapter_id=None):
     return render_template("corpus.html", data=data)
 
 
+@webapp.route("/help/")
+def show_help():
+    data = {'title': 'Help'}
+    return render_template("help.html", data=data)
+
+
 @webapp.route("/")
 def home():
     return render_template("about.html")
