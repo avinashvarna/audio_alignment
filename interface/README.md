@@ -42,6 +42,7 @@
 To add new data,
 * Run the alignment code and generate `word_alignment` (`sentence_alignment` is not required)
 * Refer to `align.py` in one of the corpus directories to get an idea.
+* Use `clean` function from `utils.alignment` to produce corpus files for alignment without the text in `[brackets]`.
 * Add a new directory in the `corpus_dir`, (currently the parent directory of the `interface`) (besides others such as ramayana, meghaduta),
 * Create `data.json` file inside that directory with relevant information. This would often entail manual creation (for deciding "good" chapter-ids, corpus name, corpus description), although of course, some parts of it can be automated.
 
@@ -49,6 +50,6 @@ To add new data,
 
 Original JS logic of text-highlighting was implemented by [Shreevatsa](https://shreevatsa.net/ramayana/).
 
-### TODO
+## TODO
 
 * "Previous" and "Next" buttons for navigation within a corpus
