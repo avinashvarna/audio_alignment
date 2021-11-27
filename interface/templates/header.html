@@ -11,6 +11,7 @@
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&display=swap" rel="stylesheet">
     <title>&bull; {{title}} &bull;{% if data.title %} {{data.title | safe}} &bull;{% endif %}</title>
     <style>
@@ -28,3 +29,16 @@
 </head>
 
 <body>
+    {% if active_page == "help" %}
+    <a style="position: fixed; top: 10px; right:10px; z-index: 2000;" href="{{url_for('show_corpus')}}" target="_blank">
+        <button class="btn btn-sm btn-secondary">
+            <i class="bi bi-house-fill"></i>
+        </button>
+    </a>
+    {% else %}
+    <a style="position: fixed; top: 10px; right:10px; z-index: 2000;" href="{{url_for('show_help')}}" target="_blank">
+        <button class="btn btn-sm btn-secondary">
+            <i class="bi bi-question-lg"></i>
+        </button>
+    </a>
+    {% endif %}

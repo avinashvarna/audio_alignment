@@ -7,7 +7,7 @@ let highlighted = null;
 let highlighted_sentence = null;
 
 // Making this a function so that this crude styling can be changed later. :-)
-function highlight(text) {
+function highlight(text_element) {
     const active_text_classes = [
         'border', 'border-warning', 'rounded', // Border
         'bg-light',                            // Background
@@ -30,18 +30,18 @@ function highlight(text) {
     }
 
     for (const active_class of active_text_classes) {
-        text.classList.add(active_class);
+        text_element.classList.add(active_class);
     }
     for (const active_class of active_sentence_classes) {
-        text.parentNode.classList.add(active_class);
+        text_element.parentNode.classList.add(active_class);
     }
 
-    text.scrollIntoView({
+    text_element.scrollIntoView({
         behavior: "smooth",
         block: "center"
     });
-    highlighted = text;
-    highlighted_sentence = text.parentNode;
+    highlighted = text_element;
+    highlighted_sentence = text_element.parentNode;
 }
 
 function human_time(seconds) {
@@ -54,6 +54,11 @@ function human_time(seconds) {
 // Main
 
 {
+    let active_element = null;
+
+    // Local Storage
+    const storage = window.localStorage;
+
     // Element Selectors
     const audio_element = document.getElementById("audio");
     const text_elements = document.getElementsByClassName('align-text');
@@ -63,10 +68,32 @@ function human_time(seconds) {
     const loop_end_button = document.querySelector('#loop-end');
     const loop_toggle_label = document.querySelector('#loop-toggle-label');
 
+    const mode_selector = document.querySelector('#repeat-mode-select');
+
+    // Anuccharana Mode Variables
+    storage.removeItem("current_unit_end");
+    if (!storage.getItem("mode")) {
+        storage.setItem("mode", "paragraph-1");
+    }
+    mode_selector.value = storage.getItem("mode");
+    var current_iteration = 1;
+
+
     // Set up handlers for click on text
-    for (const text of text_elements) {
-        text.addEventListener('click', (event) => {
-            audio_element.currentTime = parseFloat(text.dataset.begin);
+    for (const text_element of text_elements) {
+        text_element.addEventListener('click', (event) => {
+            audio_element.currentTime = parseFloat(text_element.dataset.begin);
+
+            const current_mode = storage.getItem("mode");
+            const repeat_unit = current_mode.split("-")[0];
+            const active_semantic_units = {
+                paragraph: text_element.parentNode.parentNode,
+                sentence: text_element.parentNode,
+                word: text_element,
+            }
+            const current_unit = active_semantic_units[repeat_unit];
+            storage.setItem("current_unit_begin", current_unit.dataset.begin);
+            storage.setItem("current_unit_end", current_unit.dataset.end);
         });
     }
     // Set up handlers for time change in audio.
@@ -94,17 +121,86 @@ function human_time(seconds) {
         // lastRan = new Date();
         const whatTime = parseFloat(audio_element.currentTime.toFixed(3));
         // Find the right text. For now, O(n) loop is fine; we have at most a few hundred verses in a sarga.
-        let seenLine = null;
-        for (const text of text_elements) {
-            const thisTextStart = parseFloat(text.dataset.begin);
-            if (seenLine == null || thisTextStart <= whatTime) {
-                seenLine = text;
+        for (const text_element of text_elements) {
+            const thisTextStart = parseFloat(text_element.dataset.begin);
+            if (active_element == null || thisTextStart <= whatTime) {
+                active_element = text_element;
             } else {
                 break;
             }
         }
-        if (seenLine) highlight(seenLine);
+        if (active_element) highlight(active_element);
+
+        // Anuccharana Logic
+        const current_mode = storage.getItem("mode");
+        const repeat_unit = current_mode.split("-")[0];
+        const repeat_times = parseInt(current_mode.split("-")[1]);
+
+        if (active_element) {
+            const active_semantic_units = {
+                paragraph: active_element.parentNode.parentNode,
+                sentence: active_element.parentNode,
+                word: active_element,
+            }
+            const current_unit = active_semantic_units[repeat_unit];
+            if (!storage.getItem("current_unit_end")) {
+                storage.setItem("current_unit_begin", current_unit.dataset.begin);
+                storage.setItem("current_unit_end", current_unit.dataset.end);
+            }
+            var current_unit_begin = parseFloat(storage.getItem("current_unit_begin"));
+            var current_unit_end = parseFloat(storage.getItem("current_unit_end"));
+
+            if (whatTime > current_unit_end) {
+                if (current_iteration < repeat_times) {
+                    audio_element.currentTime = current_unit_begin;
+                    current_iteration += 1;
+                } else {
+                    current_iteration = 1;
+                    storage.setItem("current_unit_begin", current_unit.dataset.begin);
+                    storage.setItem("current_unit_end", current_unit.dataset.end);
+                }
+            }
+        }
     }
+
+    /* ************************************************ */
+    //  Anuccharana
+    /* ************************************************ */
+
+    mode_selector.addEventListener('change', e => {
+        storage.setItem("mode", mode_selector.value);
+
+        const current_mode = storage.getItem("mode");
+        const repeat_unit = current_mode.split("-")[0];
+
+        if (active_element) {
+            const active_semantic_units = {
+                paragraph: active_element.parentNode.parentNode,
+                sentence: active_element.parentNode,
+                word: active_element,
+            }
+            const current_unit = active_semantic_units[repeat_unit];
+            storage.setItem("current_unit_begin", current_unit.dataset.begin);
+            storage.setItem("current_unit_end", current_unit.dataset.end);
+        }
+    });
+
+    /* ************************************************ */
+    //  Playback Speed
+    /* ************************************************ */
+
+    const speed_input = document.querySelector('#speed');
+    const speed_display = document.querySelector('#speed-display');
+    const displayvalue = val => {
+        return parseFloat(val) + 'x';
+    }
+
+    audio_element.playbackRate = speed_input.value;
+    speed_display.innerText = displayvalue(audio_element.playbackRate);
+    speed_input.addEventListener('change', e => {
+        audio_element.playbackRate = speed_input.value;
+        speed_display.innerText = displayvalue(speed_input.value);
+    });
 
     /* ************************************************ */
     //  Loop Management

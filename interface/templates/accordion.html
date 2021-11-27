@@ -1,0 +1,28 @@
+<div class="col-sm-3" id="column-navigation">
+    <div class="accordion rounded overflow-auto" id="corpus_list">
+        {% set ns = namespace(expanded=false) %}
+        {% for corpus in data.corpora.values() %}
+        {% if data.corpus.id == corpus.id %}{% set ns.expanded = true %}{% endif %}
+        <div class="accordion-item">
+            <div class="accordion-header">
+                <button class="accordion-button {% if not ns.expanded %}collapsed{% endif %}" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#chapter_list_{{corpus.id}}"
+                    aria-expanded="{{ns.expanded}}" aria-controls="chapter_list_{{corpus.id}}">
+                    {{corpus.name}}
+                </button>
+            </div>
+            <div id="chapter_list_{{corpus.id}}"
+                class="list-group list-group-flush overflow-auto collapse {% if ns.expanded %}show{% endif %}"
+                data-parent="#corpus_list">
+                {% for row in data.corpora[corpus.id].data.values() %}
+                <a class="list-group-item list-group-item-action {% if data.chapter.id == row.id %} active{% endif %}"
+                    href="{{url_for('show_corpus', corpus_id=corpus.id, chapter_id=row.id)}}">
+                    {{row.name}}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {% if ns.expanded %}{% set ns.expanded = false %}{% endif %}
+        {% endfor %}
+    </div>
+</div>

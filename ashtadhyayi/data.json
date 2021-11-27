@@ -6,6 +6,7 @@
       "id": "1.1",
       "name": "Adhyāya 1 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/01a-ashtaadhyaayii-1-1.mp3",
+      "text": "text/01a-ashtaadhyaayii-1-1.txt",
       "word_alignment": "word_alignment/01a-ashtaadhyaayii-1-1.json",
       "sentence_alignment": ""
     },
@@ -13,6 +14,7 @@
       "id": "1.2",
       "name": "Adhyāya 1 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/01b-ashtaadhyaayii-1-2.mp3",
+      "text": "text/01b-ashtaadhyaayii-1-2.txt",
       "word_alignment": "word_alignment/01b-ashtaadhyaayii-1-2.json",
       "sentence_alignment": ""
     },
@@ -20,6 +22,7 @@
       "id": "1.3",
       "name": "Adhyāya 1 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/01c-ashtaadhyaayii-1-3.mp3",
+      "text": "text/01c-ashtaadhyaayii-1-3.txt",
       "word_alignment": "word_alignment/01c-ashtaadhyaayii-1-3.json",
       "sentence_alignment": ""
     },
@@ -27,6 +30,7 @@
       "id": "1.4",
       "name": "Adhyāya 1 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/01d-ashtaadhyaayii-1-4.mp3",
+      "text": "text/01d-ashtaadhyaayii-1-4.txt",
       "word_alignment": "word_alignment/01d-ashtaadhyaayii-1-4.json",
       "sentence_alignment": ""
     },
@@ -34,6 +38,7 @@
       "id": "2.1",
       "name": "Adhyāya 2 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/02a-ashtaadhyaayii-2-1.mp3",
+      "text": "text/02a-ashtaadhyaayii-2-1.txt",
       "word_alignment": "word_alignment/02a-ashtaadhyaayii-2-1.json",
       "sentence_alignment": ""
     },
@@ -41,6 +46,7 @@
       "id": "2.2",
       "name": "Adhyāya 2 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/02b-ashtaadhyaayii-2-2.mp3",
+      "text": "text/02b-ashtaadhyaayii-2-2.txt",
       "word_alignment": "word_alignment/02b-ashtaadhyaayii-2-2.json",
       "sentence_alignment": ""
     },
@@ -48,6 +54,7 @@
       "id": "2.3",
       "name": "Adhyāya 2 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/02c-ashtaadhyaayii-2-3.mp3",
+      "text": "text/02c-ashtaadhyaayii-2-3.txt",
       "word_alignment": "word_alignment/02c-ashtaadhyaayii-2-3.json",
       "sentence_alignment": ""
     },
@@ -55,6 +62,7 @@
       "id": "2.4",
       "name": "Adhyāya 2 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/02d-ashtaadhyaayii-2-4.mp3",
+      "text": "text/02d-ashtaadhyaayii-2-4.txt",
       "word_alignment": "word_alignment/02d-ashtaadhyaayii-2-4.json",
       "sentence_alignment": ""
     },
@@ -62,6 +70,7 @@
       "id": "3.1",
       "name": "Adhyāya 3 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/03a-ashtaadhyaayii-3-1.mp3",
+      "text": "text/03a-ashtaadhyaayii-3-1.txt",
       "word_alignment": "word_alignment/03a-ashtaadhyaayii-3-1.json",
       "sentence_alignment": ""
     },
@@ -69,6 +78,7 @@
       "id": "3.2",
       "name": "Adhyāya 3 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/03b-ashtaadhyaayii-3-2.mp3",
+      "text": "text/03b-ashtaadhyaayii-3-2.txt",
       "word_alignment": "word_alignment/03b-ashtaadhyaayii-3-2.json",
       "sentence_alignment": ""
     },
@@ -76,6 +86,7 @@
       "id": "3.3",
       "name": "Adhyāya 3 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/03c-ashtaadhyaayii-3-3.mp3",
+      "text": "text/03c-ashtaadhyaayii-3-3.txt",
       "word_alignment": "word_alignment/03c-ashtaadhyaayii-3-3.json",
       "sentence_alignment": ""
     },
@@ -83,6 +94,7 @@
       "id": "3.4",
       "name": "Adhyāya 3 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/03d-ashtaadhyaayii-3-4.mp3",
+      "text": "text/03d-ashtaadhyaayii-3-4.txt",
       "word_alignment": "word_alignment/03d-ashtaadhyaayii-3-4.json",
       "sentence_alignment": ""
     },
@@ -90,6 +102,7 @@
       "id": "4.1",
       "name": "Adhyāya 4 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/04a-ashtaadhyaayii-4-1.mp3",
+      "text": "text/04a-ashtaadhyaayii-4-1.txt",
       "word_alignment": "word_alignment/04a-ashtaadhyaayii-4-1.json",
       "sentence_alignment": ""
     },
@@ -97,6 +110,7 @@
       "id": "4.2",
       "name": "Adhyāya 4 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/04b-ashtaadhyaayii-4-2.mp3",
+      "text": "text/04b-ashtaadhyaayii-4-2.txt",
       "word_alignment": "word_alignment/04b-ashtaadhyaayii-4-2.json",
       "sentence_alignment": ""
     },
@@ -104,6 +118,7 @@
       "id": "4.3",
       "name": "Adhyāya 4 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/04c-ashtaadhyaayii-4-3.mp3",
+      "text": "text/04c-ashtaadhyaayii-4-3.txt",
       "word_alignment": "word_alignment/04c-ashtaadhyaayii-4-3.json",
       "sentence_alignment": ""
     },
@@ -111,6 +126,7 @@
       "id": "4.4",
       "name": "Adhyāya 4 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/04d-ashtaadhyaayii-4-4.mp3",
+      "text": "text/04d-ashtaadhyaayii-4-4.txt",
       "word_alignment": "word_alignment/04d-ashtaadhyaayii-4-4.json",
       "sentence_alignment": ""
     },
@@ -118,6 +134,7 @@
       "id": "5.1",
       "name": "Adhyāya 5 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/05a-ashtaadhyaayii-5-1.mp3",
+      "text": "text/05a-ashtaadhyaayii-5-1.txt",
       "word_alignment": "word_alignment/05a-ashtaadhyaayii-5-1.json",
       "sentence_alignment": ""
     },
@@ -125,6 +142,7 @@
       "id": "5.2",
       "name": "Adhyāya 5 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/05b-ashtaadhyaayii-5-2.mp3",
+      "text": "text/05b-ashtaadhyaayii-5-2.txt",
       "word_alignment": "word_alignment/05b-ashtaadhyaayii-5-2.json",
       "sentence_alignment": ""
     },
@@ -132,6 +150,7 @@
       "id": "5.3",
       "name": "Adhyāya 5 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/05c-ashtaadhyaayii-5-3.mp3",
+      "text": "text/05c-ashtaadhyaayii-5-3.txt",
       "word_alignment": "word_alignment/05c-ashtaadhyaayii-5-3.json",
       "sentence_alignment": ""
     },
@@ -139,6 +158,7 @@
       "id": "5.4",
       "name": "Adhyāya 5 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/05d-ashtaadhyaayii-5-4.mp3",
+      "text": "text/05d-ashtaadhyaayii-5-4.txt",
       "word_alignment": "word_alignment/05d-ashtaadhyaayii-5-4.json",
       "sentence_alignment": ""
     },
@@ -146,6 +166,7 @@
       "id": "6.1",
       "name": "Adhyāya 6 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/06a-ashtaadhyaayii-6-1.mp3",
+      "text": "text/06a-ashtaadhyaayii-6-1.txt",
       "word_alignment": "word_alignment/06a-ashtaadhyaayii-6-1.json",
       "sentence_alignment": ""
     },
@@ -153,6 +174,7 @@
       "id": "6.2",
       "name": "Adhyāya 6 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/06b-ashtaadhyaayii-6-2.mp3",
+      "text": "text/06b-ashtaadhyaayii-6-2.txt",
       "word_alignment": "word_alignment/06b-ashtaadhyaayii-6-2.json",
       "sentence_alignment": ""
     },
@@ -160,6 +182,7 @@
       "id": "6.3",
       "name": "Adhyāya 6 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/06c-ashtaadhyaayii-6-3.mp3",
+      "text": "text/06c-ashtaadhyaayii-6-3.txt",
       "word_alignment": "word_alignment/06c-ashtaadhyaayii-6-3.json",
       "sentence_alignment": ""
     },
@@ -167,6 +190,7 @@
       "id": "6.4",
       "name": "Adhyāya 6 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/06d-ashtaadhyaayii-6-4.mp3",
+      "text": "text/06d-ashtaadhyaayii-6-4.txt",
       "word_alignment": "word_alignment/06d-ashtaadhyaayii-6-4.json",
       "sentence_alignment": ""
     },
@@ -174,6 +198,7 @@
       "id": "7.1",
       "name": "Adhyāya 7 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/07a-ashtaadhyaayii-7-1.mp3",
+      "text": "text/07a-ashtaadhyaayii-7-1.txt",
       "word_alignment": "word_alignment/07a-ashtaadhyaayii-7-1.json",
       "sentence_alignment": ""
     },
@@ -181,6 +206,7 @@
       "id": "7.2",
       "name": "Adhyāya 7 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/07b-ashtaadhyaayii-7-2.mp3",
+      "text": "text/07b-ashtaadhyaayii-7-2.txt",
       "word_alignment": "word_alignment/07b-ashtaadhyaayii-7-2.json",
       "sentence_alignment": ""
     },
@@ -188,6 +214,7 @@
       "id": "7.3",
       "name": "Adhyāya 7 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/07c-ashtaadhyaayii-7-3.mp3",
+      "text": "text/07c-ashtaadhyaayii-7-3.txt",
       "word_alignment": "word_alignment/07c-ashtaadhyaayii-7-3.json",
       "sentence_alignment": ""
     },
@@ -195,6 +222,7 @@
       "id": "7.4",
       "name": "Adhyāya 7 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/07d-ashtaadhyaayii-7-4.mp3",
+      "text": "text/07d-ashtaadhyaayii-7-4.txt",
       "word_alignment": "word_alignment/07d-ashtaadhyaayii-7-4.json",
       "sentence_alignment": ""
     },
@@ -202,6 +230,7 @@
       "id": "8.1",
       "name": "Adhyāya 8 Pāda 1",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/08a-ashtaadhyaayii-8-1.mp3",
+      "text": "text/08a-ashtaadhyaayii-8-1.txt",
       "word_alignment": "word_alignment/08a-ashtaadhyaayii-8-1.json",
       "sentence_alignment": ""
     },
@@ -209,6 +238,7 @@
       "id": "8.2",
       "name": "Adhyāya 8 Pāda 2",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/08b-ashtaadhyaayii-8-2.mp3",
+      "text": "text/08b-ashtaadhyaayii-8-2.txt",
       "word_alignment": "word_alignment/08b-ashtaadhyaayii-8-2.json",
       "sentence_alignment": ""
     },
@@ -216,6 +246,7 @@
       "id": "8.3",
       "name": "Adhyāya 8 Pāda 3",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/08c-ashtaadhyaayii-8-3.mp3",
+      "text": "text/08c-ashtaadhyaayii-8-3.txt",
       "word_alignment": "word_alignment/08c-ashtaadhyaayii-8-3.json",
       "sentence_alignment": ""
     },
@@ -223,6 +254,7 @@
       "id": "8.4",
       "name": "Adhyāya 8 Pāda 4",
       "audio_url": "http://surasa.net/music/samskrta-vani/ashtadhyayi/08d-ashtaadhyaayii-8-4.mp3",
+      "text": "text/08d-ashtaadhyaayii-8-4.txt",
       "word_alignment": "word_alignment/08d-ashtaadhyaayii-8-4.json",
       "sentence_alignment": ""
     }

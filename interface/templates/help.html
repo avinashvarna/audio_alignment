@@ -1,0 +1,63 @@
+{% set active_page = "help" %}
+{% include "header.html" %}
+<div class="container-fluid p-3">
+    <div class="card">
+        <div class="card-header lead">
+            General Information
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Presented here, are text-aligned Sanskrit recitations with a friendly interface.</li>
+                <li>Use the accordion menu on the left to navigate through corpus.</li>
+                <li>Text and audio alignment has been performed using <a href="https://github.com/readbeyond/aeneas">aeneas</a> library.</li>
+                <li>As the audio plays, relevant portion of the text gets highlighted.</li>
+                <li>Clicking on the text navigates to the corresponding time in the audio.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card mt-2">
+        <div class="card-header lead">
+            Playback Speed
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Use the slider to control playback rate of the audio.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card mt-2">
+        <div class="card-header lead">
+            Looping Controls
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>Looping controls can be used to loop the audio between any two timestamps <code>A</code> and <code>B</code> in the audio.</li>
+                <li>Ensure that the audio is in paused state.</li>
+                <li>Click on the button <span class="btn btn-sm btn-dark disabled">Loop (OFF)</span> to activate the loop, it should activate and appear as <span class="btn btn-sm btn-success disabled">Loop (ON)</span>.</li>
+                <li>Click on the text from which you would like the loop to start.</li>
+                <li>Click on the button <span class="btn btn-sm btn-secondary disabled">A</span> to mark the start of the loop. The time will appear in place of the text <code>A</code> of the button.</li>
+                <li>Click on the text before which you would like the loop to end.</li>
+                <li>Click on the button <span class="btn btn-sm btn-secondary disabled">B</span> to mark the end of the loop. The time will appear in place of the text <code>B</code> of the button</li>
+                <li>Play the audio.</li>
+                <li>To stop the loop and continue with the normal playback, click on the button <span class="btn btn-sm btn-success disabled">Loop (ON)</span>.</li>
+            </ul>
+        </div>
+    </div>
+    <div class="card mt-2">
+        <div class="card-header lead">
+            Text Repetition Modes
+        </div>
+        <div class="card-body">
+            <ul>
+                <li>This is an attempt to simulate 'Anūccāraṇam'.</li>
+                <li><span class="btn btn-sm btn-dark disabled">Mode</span> selector drop-down menu can be used to select the mode.</li>
+                <li>Three semantic units are identified, <b>Paragraph</b> (separated by two or more line-breaks), <b>Sentence</b> (separated by a single line-break) and <b>Word</b> (separated by space).</li>
+                <li>Mode <code>P×2</code> refers to repeating each <b>Paragraph</b> twice.</li>
+                <li>Mode <code>S×2</code> refers to repeating each <b>Sentence</b> twice. (Anūccāraṇam)</li>
+                <li>Mode <code>W×2</code> refers to repeating each <b>Word</b> twice.</li>
+                <li><b>Note</b>: At times, there may be a small error on the boundaries, stemming from the small error in the forced audio alignment. It can't be helped.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% include "footer.html" %}
