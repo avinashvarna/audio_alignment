@@ -69,9 +69,14 @@ function human_time(seconds) {
     const loop_toggle_label = document.querySelector('#loop-toggle-label');
 
     const mode_selector = document.querySelector('#repeat-mode-select');
+    const url_params = new URLSearchParams(window.location.search);
 
     // Anuccharana Mode Variables
     storage.removeItem("current_unit_end");
+    // URL params takes preference
+    if(url_params.has("mode")) {
+        storage.setItem("mode", url_params.get("mode"));
+	}
     if (!storage.getItem("mode")) {
         storage.setItem("mode", "paragraph-1");
     }
@@ -193,6 +198,10 @@ function human_time(seconds) {
     const speed_display = document.querySelector('#speed-display');
     const displayvalue = val => {
         return parseFloat(val) + 'x';
+    }
+
+    if(url_params.has('speed')) {
+        speed_input.value = url_params.get('speed');
     }
 
     audio_element.playbackRate = speed_input.value;
