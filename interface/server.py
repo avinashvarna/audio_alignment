@@ -39,7 +39,13 @@ def load_corpora():
                 e['id']: e
                 for e in corpus_data.get('data', [])
                 if isinstance(e, dict)
-            }
+            },
+            'chapter_index' : {
+                e['id'] : i
+                for i, e in enumerate(corpus_data.get('data', []))
+                if isinstance(e, dict)
+            },
+            'chapter_list' : [e['id'] for e in corpus_data.get('data', [])]
         }
     return corpora
 
@@ -252,6 +258,20 @@ def show_corpus(corpus_id=None, chapter_id=None):
         data['chapter'] = chapter
         data['title'] = f"{corpus['name']} &bull; {chapter['name']}"
         data['audio'] = chapter['audio_url']
+
+        # Prev and Next chapters
+        chapter_index = corpus['chapter_index'][chapter_id]
+        if chapter_index > 0:
+            # Prev chapter
+            prev_chapter_id = corpus['chapter_list'][chapter_index-1]
+            data['prev_chapter'] = url_for('show_corpus', corpus_id=corpus_id,
+                                           chapter_id=prev_chapter_id)
+
+        if chapter_index < (len(corpus['chapter_list'])-1):
+            next_chapter_id = corpus['chapter_list'][chapter_index+1]
+            data['next_chapter'] = url_for('show_corpus', corpus_id=corpus_id,
+                                           chapter_id=next_chapter_id)
+
 
         word_alignment_file = os.path.join(
             corpus_path, chapter['word_alignment']
