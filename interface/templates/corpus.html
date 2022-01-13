@@ -7,8 +7,8 @@
         <div class="col-sm" id="column-text">
             {% if data.chapter %}
             <div class="card d-flex flex-column">
-                <div class="card-header lead d-flex flex-row">
-					<div class="col-1">
+                <div class="card-header lead d-flex flex-row justify-content-between">
+					<div class="col-sm-3">
 						{% if data.prev_chapter %}
 						<a class="nav-link" href="{{data.prev_chapter | safe}}">
 							<i class="bi bi-skip-backward-btn"></i> Prev
@@ -18,7 +18,7 @@
 					<div class="col text-center">
 						{{data.chapter.name}}
 					</div>
-					<div class="col-1">
+					<div class="col-sm-3">
 						{% if data.next_chapter %}
 						<a class="nav-link" href="{{data.next_chapter | safe}}">
 							Next <i class="bi bi-skip-forward-btn"></i>
@@ -64,17 +64,15 @@
                 <div id="text-container" class="card-body overflow-auto">
                     {% include "text.html" %}
                 </div>
-				<div class="card-footer d-flex flex-row">
-					<div class="col-1">
+				<div class="card-footer d-flex flex-row justify-content-between">
+					<div class="col-sm-3">
 						{% if data.prev_chapter %}
 						<a class="nav-link" href="{{data.prev_chapter | safe}}">
 							<i class="bi bi-skip-backward-btn"></i> Prev
 						</a>
 						{% endif %}
 					</div>
-					<div class="col text-center">
-					</div>
-					<div class="col-1">
+					<div class="col-sm-3">
 						{% if data.next_chapter %}
 						<a class="nav-link" href="{{data.next_chapter | safe}}">
 							Next <i class="bi bi-skip-forward-btn"></i>
