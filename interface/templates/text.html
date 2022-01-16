@@ -4,6 +4,7 @@
     <{{paragraph.tag}} id="{{paragraph.id}}" class="paragraph-unit" data-begin="{{data.alignment[paragraph.id].begin}}" data-end="{{data.alignment[paragraph.id].end}}">
         {% for sentence in paragraph.data %}
         {% set sentence_index = loop.index %}
+        {% if sentence.id in data.alignment %}
         <{{sentence.tag}} id="{{sentence.id}}" class="my-1 sentence-unit" data-begin="{{data.alignment[sentence.id].begin}}" data-end="{{data.alignment[sentence.id].end}}">
             {% for word in sentence.data %}
             {% set word_index = loop.index %}
@@ -19,6 +20,7 @@
             {% endfor %}
             <br>
         </{{sentence.tag}}>
+        {% endif %}
         {% endfor %}
     </{{paragraph.tag}}>
 {% endfor %}

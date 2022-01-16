@@ -18,7 +18,7 @@
 					<div class="col text-center">
 						{{data.chapter.name}}
 					</div>
-					<div class="col-sm-3">
+					<div class="justify-content-end">
 						{% if data.next_chapter %}
 						<a class="nav-link" href="{{data.next_chapter | safe}}">
 							Next <i class="bi bi-skip-forward-btn"></i>
@@ -72,7 +72,7 @@
 						</a>
 						{% endif %}
 					</div>
-					<div class="col-sm-3">
+					<div class="justify-content-end">
 						{% if data.next_chapter %}
 						<a class="nav-link" href="{{data.next_chapter | safe}}">
 							Next <i class="bi bi-skip-forward-btn"></i>

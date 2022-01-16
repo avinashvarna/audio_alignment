@@ -7,175 +7,200 @@
       "name": "1.1: स्वर्गवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.1.mp3",
       "word_alignment": "word_alignment/1.1.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.1.json",
+      "text": "text/1.1.txt"
     },
     {
       "id": "1.2",
       "name": "1.2: व्योमवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.2.mp3",
       "word_alignment": "word_alignment/1.2.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.2.json",
+      "text": "text/1.2.txt"
     },
     {
       "id": "1.3",
       "name": "1.3: दिग्वर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.3.mp3",
       "word_alignment": "word_alignment/1.3.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.3.json",
+      "text": "text/1.3.txt"
     },
     {
       "id": "1.4",
       "name": "1.4: कालवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.4.mp3",
       "word_alignment": "word_alignment/1.4.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.4.json",
+      "text": "text/1.4.txt"
     },
     {
       "id": "1.5",
       "name": "1.5: धीवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.5.mp3",
       "word_alignment": "word_alignment/1.5.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.5.json",
+      "text": "text/1.5.txt"
     },
     {
       "id": "1.6",
       "name": "1.6: शब्दादिवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.6.mp3",
       "word_alignment": "word_alignment/1.6.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.6.json",
+      "text": "text/1.6.txt"
     },
     {
       "id": "1.7",
       "name": "1.7: नाट्यवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.7.mp3",
       "word_alignment": "word_alignment/1.7.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.7.json",
+      "text": "text/1.7.txt"
     },
     {
       "id": "1.8",
-      "name": "1.8:  पातालभोगिवर्गः",
+      "name": "1.8: पातालभोगिवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.8.mp3",
       "word_alignment": "word_alignment/1.8.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.8.json",
+      "text": "text/1.8.txt"
     },
     {
       "id": "1.9",
       "name": "1.9: नरकवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.9.mp3",
       "word_alignment": "word_alignment/1.9.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.9.json",
+      "text": "text/1.9.txt"
     },
     {
       "id": "1.10",
       "name": "1.10: वारिवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/1.10.mp3",
       "word_alignment": "word_alignment/1.10.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/1.10.json",
+      "text": "text/1.10.txt"
     },
     {
       "id": "2.1",
       "name": "2.1: भूमिवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.1.mp3",
       "word_alignment": "word_alignment/2.1.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.1.json",
+      "text": "text/2.1.txt"
     },
     {
       "id": "2.2",
       "name": "2.2: पुरवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.2.mp3",
       "word_alignment": "word_alignment/2.2.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.2.json",
+      "text": "text/2.2.txt"
     },
     {
       "id": "2.3",
       "name": "2.3: शैलवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.3.mp3",
       "word_alignment": "word_alignment/2.3.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.3.json",
+      "text": "text/2.3.txt"
     },
     {
       "id": "2.4",
       "name": "2.4: वनौषधिवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.4.mp3",
       "word_alignment": "word_alignment/2.4.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.4.json",
+      "text": "text/2.4.txt"
     },
     {
       "id": "2.5",
       "name": "2.5: सिंहादिवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.5.mp3",
       "word_alignment": "word_alignment/2.5.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.5.json",
+      "text": "text/2.5.txt"
     },
     {
       "id": "2.6",
       "name": "2.6: मनुष्यवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.6.mp3",
       "word_alignment": "word_alignment/2.6.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.6.json",
+      "text": "text/2.6.txt"
     },
     {
       "id": "2.7",
       "name": "2.7: ब्रह्मवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.7.mp3",
       "word_alignment": "word_alignment/2.7.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.7.json",
+      "text": "text/2.7.txt"
     },
     {
       "id": "2.8",
       "name": "2.8: क्षत्रियवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.8.mp3",
       "word_alignment": "word_alignment/2.8.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.8.json",
+      "text": "text/2.8.txt"
     },
     {
       "id": "2.9",
       "name": "2.9: वैश्यवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.9.mp3",
       "word_alignment": "word_alignment/2.9.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.9.json",
+      "text": "text/2.9.txt"
     },
     {
       "id": "2.10",
       "name": "2.10: शूद्रवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/2.10.mp3",
       "word_alignment": "word_alignment/2.10.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/2.10.json",
+      "text": "text/2.10.txt"
     },
     {
       "id": "3.1",
       "name": "3.1: विशेष्यनिघ्नवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/3.1.mp3",
       "word_alignment": "word_alignment/3.1.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/3.1.json",
+      "text": "text/3.1.txt"
     },
     {
       "id": "3.2",
       "name": "3.2: सङ्कीर्णवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/3.2.mp3",
       "word_alignment": "word_alignment/3.2.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/3.2.json",
+      "text": "text/3.2.txt"
     },
     {
       "id": "3.3",
       "name": "3.3: नानार्थवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/3.3.mp3",
       "word_alignment": "word_alignment/3.3.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/3.3.json",
+      "text": "text/3.3.txt"
     },
     {
       "id": "3.4",
       "name": "3.4: अव्ययवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/3.4.mp3",
       "word_alignment": "word_alignment/3.4.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/3.4.json",
+      "text": "text/3.4.txt"
     },
     {
       "id": "3.5",
       "name": "3.5: लिङ्गादिसंग्रहवर्गः",
       "audio_url": "https://archive.org/download/amarakosha_audio/3.5.mp3",
       "word_alignment": "word_alignment/3.5.json",
-      "sentence_alignment": ""
+      "sentence_alignment": "sentence_alignment/3.5.json",
+      "text": "text/3.5.txt"
     }
   ]
 }
