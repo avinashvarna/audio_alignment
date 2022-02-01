@@ -9,7 +9,7 @@ To use the scripts and perform alignment of text and audio:
 function in `utils/alignment.py` to align the text and audio.
 
 For examples, please see `align.py` in the [`rAmAyaNa`](https://github.com/avinashvarna/audio_alignment/tree/main/ramayana)
-or [`meghaduta`] subdirectories.
+or [`meghaduta`](https://github.com/avinashvarna/audio_alignment/tree/main/meghaduta) subdirectories.
 
 # Website
 
@@ -17,5 +17,4 @@ Please see the result at the [project page](https://avinashvarna.github.io/audio
 
 # Adding new data
 
-To contribute new data to the project, please follow these [instructions]
-(https://github.com/avinashvarna/audio_alignment/blob/main/interface/README.md#how-to-add-new-data)
+To contribute new data to the project, please follow these [Instructions](https://github.com/avinashvarna/audio_alignment/blob/main/interface/README.md#how-to-add-new-data)
