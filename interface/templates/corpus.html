@@ -7,24 +7,34 @@
         <div class="col-sm" id="column-text">
             {% if data.chapter %}
             <div class="card d-flex flex-column">
-                <div class="card-header lead d-flex flex-row justify-content-between">
-					<div class="col-sm-3">
-						{% if data.chapter.prev_id %}
-						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.prev_id)}}">
-							<i class="bi bi-skip-backward-btn"></i> Prev
-						</a>
-						{% endif %}
-					</div>
-					<div class="col text-center">
+                <div class="card-header lead text-center">
+                        <div class="float-start">
+                            {% if data.chapter.prev_id %}
+                            <a title="Previous Chapter" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.prev_id)}}">
+                                <button class="btn btn-sm btn-primary">
+                                    <i class="bi bi-caret-left-fill"></i>
+                                </button>
+                            </a>
+                            {% else %}
+                            <button class="btn btn-sm btn-secondary" disabled>
+                                <i class="bi bi-caret-left"></i>
+                            </button>
+						    {% endif %}
+                        </div>
 						{{data.chapter.name}}
-					</div>
-					<div class="justify-content-end">
-						{% if data.chapter.next_id %}
-						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.next_id)}}">
-							Next <i class="bi bi-skip-forward-btn"></i>
-						</a>
-						{% endif %}
-					</div>
+                        <div class="float-end">
+                            {% if data.chapter.next_id %}
+                            <a title="Next Chapter" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.next_id)}}">
+                                <button class="btn btn-sm btn-primary">
+                                    <i class="bi bi-caret-right-fill"></i>
+                                </button>
+                            </a>
+                            {% else %}
+                            <button class="btn btn-sm btn-secondary" disabled>
+                                <i class="bi bi-caret-right"></i>
+                            </button>
+						    {% endif %}
+                        </div>
 				</div>
                 <div id="audio-container" class="card-body bg-light border-bottom sticky-top">
                     <div class="row">
@@ -64,21 +74,33 @@
                 <div id="text-container" class="card-body overflow-auto">
                     {% include "text.html" %}
                 </div>
-				<div class="card-footer d-flex flex-row justify-content-between">
-					<div class="col-sm-3">
-						{% if data.chapter.prev_id %}
-						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.prev_id)}}">
-							<i class="bi bi-skip-backward-btn"></i> Prev
-						</a>
-						{% endif %}
-					</div>
-					<div class="justify-content-end">
-						{% if data.chapter.next_id %}
-						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.next_id)}}">
-							Next <i class="bi bi-skip-forward-btn"></i>
-						</a>
-						{% endif %}
-					</div>
+				<div class="card-footer">
+                    <div class="float-start">
+                        {% if data.chapter.prev_id %}
+                        <a title="Previous Chapter" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.prev_id)}}">
+                            <button class="btn btn-sm btn-primary">
+                                <i class="bi bi-caret-left-fill"></i>
+                            </button>
+                        </a>
+                        {% else %}
+                        <button class="btn btn-sm btn-secondary" disabled>
+                            <i class="bi bi-caret-left"></i>
+                        </button>
+                        {% endif %}
+                    </div>
+                    <div class="float-end">
+                        {% if data.chapter.next_id %}
+                        <a title="Next Chapter" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.next_id)}}">
+                            <button class="btn btn-sm btn-primary">
+                                <i class="bi bi-caret-right-fill"></i>
+                            </button>
+                        </a>
+                        {% else %}
+                        <button class="btn btn-sm btn-secondary" disabled>
+                            <i class="bi bi-caret-right"></i>
+                        </button>
+                        {% endif %}
+                    </div>
             </div>
             {% else %}
             <div class="card mb-2">
