@@ -27,6 +27,23 @@ def load_corpora():
         with open(corpus_data_file, encoding='utf-8') as f:
             corpus_data = json.load(f)
 
+        chapter_list = corpus_data.get('data', [])
+        chapters = {}
+        prev_id = None
+
+        for chapter in chapter_list:
+            if not isinstance(chapter, dict):
+                continue
+
+            chapter_id = chapter['id']
+            chapter['prev_id'] = prev_id
+            chapter['next_id'] = None
+            chapters[chapter_id] = chapter
+
+            if prev_id is not None:
+                chapters[prev_id]['next_id'] = chapter_id
+            prev_id = chapter_id
+
         corpus_path = os.path.dirname(corpus_data_file)
         corpus_id = os.path.basename(corpus_path)
         corpora[corpus_id] = {
@@ -35,17 +52,7 @@ def load_corpora():
             'name': corpus_data.get('name', corpus_id),
             'description': corpus_data.get('description', None),
             'accordion': corpus_data.get('accordion', True),
-            'data': {
-                e['id']: e
-                for e in corpus_data.get('data', [])
-                if isinstance(e, dict)
-            },
-            'chapter_index' : {
-                e['id'] : i
-                for i, e in enumerate(corpus_data.get('data', []))
-                if isinstance(e, dict)
-            },
-            'chapter_list' : [e['id'] for e in corpus_data.get('data', [])]
+            'data': chapters
         }
     return corpora
 
@@ -240,8 +247,6 @@ def show_corpus(corpus_id=None, chapter_id=None):
     if corpus_id is not None:
         if corpus_id not in CORPORA:
             return redirect(url_for('show_corpus'))
-        else:
-            data['corpus'] = CORPORA[corpus_id]
 
     if chapter_id is not None:
         corpus_path = CORPORA[corpus_id]['path']
@@ -249,7 +254,7 @@ def show_corpus(corpus_id=None, chapter_id=None):
             return redirect(url_for('show_corpus', corpus=corpus_id))
 
         corpus = CORPORA[corpus_id]
-        chapter = CORPORA[corpus_id]['data'][chapter_id]
+        chapter = corpus['data'][chapter_id]
 
         if not corpus['accordion']:
             data['accordion'] = False
@@ -258,20 +263,6 @@ def show_corpus(corpus_id=None, chapter_id=None):
         data['chapter'] = chapter
         data['title'] = f"{corpus['name']} &bull; {chapter['name']}"
         data['audio'] = chapter['audio_url']
-
-        # Prev and Next chapters
-        chapter_index = corpus['chapter_index'][chapter_id]
-        if chapter_index > 0:
-            # Prev chapter
-            prev_chapter_id = corpus['chapter_list'][chapter_index-1]
-            data['prev_chapter'] = url_for('show_corpus', corpus_id=corpus_id,
-                                           chapter_id=prev_chapter_id)
-
-        if chapter_index < (len(corpus['chapter_list'])-1):
-            next_chapter_id = corpus['chapter_list'][chapter_index+1]
-            data['next_chapter'] = url_for('show_corpus', corpus_id=corpus_id,
-                                           chapter_id=next_chapter_id)
-
 
         word_alignment_file = os.path.join(
             corpus_path, chapter['word_alignment']

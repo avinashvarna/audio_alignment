@@ -9,8 +9,8 @@
             <div class="card d-flex flex-column">
                 <div class="card-header lead d-flex flex-row justify-content-between">
 					<div class="col-sm-3">
-						{% if data.prev_chapter %}
-						<a class="nav-link" href="{{data.prev_chapter | safe}}">
+						{% if data.chapter.prev_id %}
+						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.prev_id)}}">
 							<i class="bi bi-skip-backward-btn"></i> Prev
 						</a>
 						{% endif %}
@@ -19,8 +19,8 @@
 						{{data.chapter.name}}
 					</div>
 					<div class="justify-content-end">
-						{% if data.next_chapter %}
-						<a class="nav-link" href="{{data.next_chapter | safe}}">
+						{% if data.chapter.next_id %}
+						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.next_id)}}">
 							Next <i class="bi bi-skip-forward-btn"></i>
 						</a>
 						{% endif %}
@@ -66,15 +66,15 @@
                 </div>
 				<div class="card-footer d-flex flex-row justify-content-between">
 					<div class="col-sm-3">
-						{% if data.prev_chapter %}
-						<a class="nav-link" href="{{data.prev_chapter | safe}}">
+						{% if data.chapter.prev_id %}
+						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.prev_id)}}">
 							<i class="bi bi-skip-backward-btn"></i> Prev
 						</a>
 						{% endif %}
 					</div>
 					<div class="justify-content-end">
-						{% if data.next_chapter %}
-						<a class="nav-link" href="{{data.next_chapter | safe}}">
+						{% if data.chapter.next_id %}
+						<a class="nav-link" href="{{url_for('show_corpus', corpus_id=data.corpus.id, chapter_id=data.chapter.next_id)}}">
 							Next <i class="bi bi-skip-forward-btn"></i>
 						</a>
 						{% endif %}
