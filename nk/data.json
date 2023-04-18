@@ -1,0 +1,14 @@
+{
+  "name": " श्रीनारायणकवचम्  ",
+  "description": "Text Source: <a href='https://sanskritdocuments.org/doc_vishhnu/narayana-kavacha.html'>sanskritdocuments.org/</a>\n<br>\nAudio Source: <a href='https://youtu.be/Ym2piArKBGw'>.. Narayana Kavacham from Shrimad Bhagavatam .. The Sanskrit Channel</a>",
+  "data": [
+    {
+      "id": "nk",
+      "name": " श्रीनारायणकवचम् ",
+      "audio_url": "nk.mp3",
+      "word_alignment": "word_alignment/nk.json",
+      "sentence_alignment": "sentence_alignment/1.1.json",
+      "text": "text/nk.txt"
+    }
+ ]
+}
