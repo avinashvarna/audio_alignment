@@ -1,0 +1,38 @@
+{
+  "name": "पातञ्जलयोगसूत्राणि",
+  "description": "Text Source: <a href='https://sanskritdocuments.org/doc_yoga/yogasuutra.html'>sanskritdocuments.org/</a>\n<br>\nAudio Source: <a href='https://www.youtube.com/playlist?list=OLAK5uy_nObCtdK2XiaEAS4z0qethR4Sp9luLN2_8'>YouTube playlist of Dr. M. A. Jayashree</a>",
+  "data": [
+    {
+      "id": "1",
+      "name": "समाधिपादः",
+      "audio_url": "https://archive.org/download/yogasutra_audio/yogasutra1.mp3",
+      "word_alignment": "word_alignment/yogasutra1.json",
+      "sentence_alignment": "sentence_alignment/yogasutra1.json",
+      "text": "text/1.txt"
+    },
+	{
+      "id": "2",
+      "name": "साधनपादः",
+      "audio_url": "https://archive.org/download/yogasutra_audio/yogasutra2.mp3",
+      "word_alignment": "word_alignment/yogasutra2.json",
+      "sentence_alignment": "sentence_alignment/yogasutra2.json",
+      "text": "text/2.txt"
+    },
+	{
+      "id": "3",
+      "name": "विभूतिपादः",
+      "audio_url": "https://archive.org/download/yogasutra_audio/yogasutra3.mp3",
+      "word_alignment": "word_alignment/yogasutra3.json",
+      "sentence_alignment": "sentence_alignment/yogasutra3.json",
+      "text": "text/3.txt"
+    },
+	{
+      "id": "4",
+      "name": "कैवल्यपादः",
+      "audio_url": "https://archive.org/download/yogasutra_audio/yogasutra4.mp3",
+      "word_alignment": "word_alignment/yogasutra4.json",
+      "sentence_alignment": "sentence_alignment/yogasutra4.json",
+      "text": "text/4.txt"
+    }
+ ]
+}
