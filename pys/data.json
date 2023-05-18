@@ -1,0 +1,14 @@
+{
+  "name": "पातञ्जलयोगसूत्राणि ",
+  "description": "Text Source: <a href='https://sanskritdocuments.org/doc_yoga/yogasuutra.html'>sanskritdocuments.org/</a>\n<br>\nAudio Source: <a href='https://youtu.be/n9FExot92Bk'>All 4 Chapters of Patanjali Yoga Sutras - Uninterrupted Meditative Chant by The Sanskrit Channel</a>",
+  "data": [
+    {
+      "id": "pys",
+      "name": "पातञ्जलयोगसूत्राणि ",
+      "audio_url": "pys.mp3",
+      "word_alignment": "word_alignment/pys.json",
+      "sentence_alignment": "sentence_alignment/1.1.json",
+      "text": "text/pys.txt"
+    }
+ ]
+}
