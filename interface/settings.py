@@ -34,7 +34,7 @@ CONFIG['SERVER_DIR'] = os.environ.get(
 )
 
 CONFIG['CORPUS_DIR'] = os.environ.get(
-    f'{CONFIG_PREFIX}CORPUS_DIR', os.path.dirname(CONFIG['SERVER_DIR'])
+    f'{CONFIG_PREFIX}CORPUS_DIR', os.path.dirname(CONFIG['SERVER_DIR'] + "/../data/")
 )
 CONFIG['DATA_FILENAME'] = 'data.json'
 CONFIG['CORPUS_DATA_FILES'] = os.environ.get(
