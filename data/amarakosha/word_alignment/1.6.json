@@ -2,2342 +2,2164 @@
   "fragments": [
     {
       "begin": "0.000",
-      "children": [],
       "end": "0.965",
       "id": "p000001s000001w000001",
-      "language": "hi",
       "lines": [
         "अथ"
       ]
     },
     {
       "begin": "0.965",
-      "children": [],
       "end": "4.760",
       "id": "p000001s000001w000002",
-      "language": "hi",
       "lines": [
         "शब्दादिवर्गः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "4.760",
-      "children": [],
       "end": "5.800",
       "id": "p000002s000001w000001",
-      "language": "hi",
       "lines": [
         "ब्राह्मी"
       ]
     },
     {
       "begin": "5.800",
-      "children": [],
       "end": "5.945",
       "id": "p000002s000001w000002",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "5.945",
-      "children": [],
       "end": "6.800",
       "id": "p000002s000001w000003",
-      "language": "hi",
       "lines": [
         "भारती"
       ]
     },
     {
       "begin": "6.800",
-      "children": [],
       "end": "8.535",
       "id": "p000002s000001w000004",
-      "language": "hi",
       "lines": [
         "भाषा"
       ]
     },
     {
       "begin": "8.535",
-      "children": [],
       "end": "10.470",
       "id": "p000002s000001w000005",
-      "language": "hi",
       "lines": [
         "गीर्वाग्वाणी"
       ]
     },
     {
       "begin": "10.470",
-      "children": [],
       "end": "12.420",
       "id": "p000002s000001w000006",
-      "language": "hi",
       "lines": [
         "सरस्वती"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "12.420",
-      "children": [],
       "end": "13.600",
       "id": "p000002s000002w000001",
-      "language": "hi",
       "lines": [
         "व्याहार"
       ]
     },
     {
       "begin": "13.600",
-      "children": [],
       "end": "15.115",
       "id": "p000002s000002w000002",
-      "language": "hi",
       "lines": [
         "उक्तिर्लपितं"
       ]
     },
     {
       "begin": "15.115",
-      "children": [],
       "end": "16.440",
       "id": "p000002s000002w000003",
-      "language": "hi",
       "lines": [
         "भाषितं"
       ]
     },
     {
       "begin": "16.440",
-      "children": [],
       "end": "17.070",
       "id": "p000002s000002w000004",
-      "language": "hi",
       "lines": [
         "वचनं"
       ]
     },
     {
       "begin": "17.070",
-      "children": [],
       "end": "17.480",
       "id": "p000002s000002w000005",
-      "language": "hi",
       "lines": [
         "वचः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१॥"
+      ]
+    },
+    {
       "begin": "17.480",
-      "children": [],
       "end": "20.360",
       "id": "p000003s000001w000001",
-      "language": "hi",
       "lines": [
         "अपभ्रंशोऽपशब्दः"
       ]
     },
     {
       "begin": "20.360",
-      "children": [],
       "end": "22.975",
       "id": "p000003s000001w000002",
-      "language": "hi",
       "lines": [
         "स्याच्छास्त्रे"
       ]
     },
     {
       "begin": "22.975",
-      "children": [],
       "end": "23.800",
       "id": "p000003s000001w000003",
-      "language": "hi",
       "lines": [
         "शब्दस्तु"
       ]
     },
     {
       "begin": "23.800",
-      "children": [],
       "end": "25.740",
       "id": "p000003s000001w000004",
-      "language": "hi",
       "lines": [
         "वाचकः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "25.740",
-      "children": [],
       "end": "27.160",
       "id": "p000003s000002w000001",
-      "language": "hi",
       "lines": [
         "तिङ्सुबन्तचयो"
       ]
     },
     {
       "begin": "27.160",
-      "children": [],
       "end": "28.940",
       "id": "p000003s000002w000002",
-      "language": "hi",
       "lines": [
         "वाक्यं"
       ]
     },
     {
       "begin": "28.940",
-      "children": [],
       "end": "29.485",
       "id": "p000003s000002w000003",
-      "language": "hi",
       "lines": [
         "क्रिया"
       ]
     },
     {
       "begin": "29.485",
-      "children": [],
       "end": "29.730",
       "id": "p000003s000002w000004",
-      "language": "hi",
       "lines": [
         "वा"
       ]
     },
     {
       "begin": "29.730",
-      "children": [],
       "end": "32.280",
       "id": "p000003s000002w000005",
-      "language": "hi",
       "lines": [
         "कारकान्विता"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२॥"
+      ]
+    },
+    {
       "begin": "32.280",
-      "children": [],
       "end": "32.680",
       "id": "p000004s000001w000001",
-      "language": "hi",
       "lines": [
         "श्रुतिः"
       ]
     },
     {
       "begin": "32.680",
-      "children": [],
       "end": "33.240",
       "id": "p000004s000001w000002",
-      "language": "hi",
       "lines": [
         "स्त्री"
       ]
     },
     {
       "begin": "33.240",
-      "children": [],
       "end": "33.805",
       "id": "p000004s000001w000003",
-      "language": "hi",
       "lines": [
         "वेद"
       ]
     },
     {
       "begin": "33.805",
-      "children": [],
       "end": "36.525",
       "id": "p000004s000001w000004",
-      "language": "hi",
       "lines": [
         "आम्नायस्त्रयी"
       ]
     },
     {
       "begin": "36.525",
-      "children": [],
       "end": "37.345",
       "id": "p000004s000001w000005",
-      "language": "hi",
       "lines": [
         "धर्मस्तु"
       ]
     },
     {
       "begin": "37.345",
-      "children": [],
       "end": "39.400",
       "id": "p000004s000001w000006",
-      "language": "hi",
       "lines": [
         "तद्विधिः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "39.400",
-      "children": [],
       "end": "42.295",
       "id": "p000004s000002w000001",
-      "language": "hi",
       "lines": [
         "स्त्रियामृक्सामयजुषी"
       ]
     },
     {
       "begin": "42.295",
-      "children": [],
       "end": "42.515",
       "id": "p000004s000002w000002",
-      "language": "hi",
       "lines": [
         "इति"
       ]
     },
     {
       "begin": "42.515",
-      "children": [],
       "end": "45.320",
       "id": "p000004s000002w000003",
-      "language": "hi",
       "lines": [
         "वेदास्त्रयस्त्रयी"
       ]
     },
     {
+      "lines": [
+        "॥१.६.३॥"
+      ]
+    },
+    {
       "begin": "45.320",
-      "children": [],
       "end": "46.885",
       "id": "p000005s000001w000001",
-      "language": "hi",
       "lines": [
         "शिक्षेत्यादि"
       ]
     },
     {
       "begin": "46.885",
-      "children": [],
       "end": "50.145",
       "id": "p000005s000001w000002",
-      "language": "hi",
       "lines": [
         "श्रुतेरङ्गमोङ्कार"
       ]
     },
     {
       "begin": "50.145",
-      "children": [],
       "end": "51.095",
       "id": "p000005s000001w000003",
-      "language": "hi",
       "lines": [
         "प्रणवौ"
       ]
     },
     {
       "begin": "51.095",
-      "children": [],
       "end": "52.420",
       "id": "p000005s000001w000004",
-      "language": "hi",
       "lines": [
         "समौ"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "52.420",
-      "children": [],
       "end": "54.035",
       "id": "p000005s000002w000001",
-      "language": "hi",
       "lines": [
         "इतिहासः"
       ]
     },
     {
       "begin": "54.035",
-      "children": [],
       "end": "57.980",
       "id": "p000005s000002w000002",
-      "language": "hi",
       "lines": [
         "पुरावृत्तमुदात्ताद्यास्त्रयः"
       ]
     },
     {
       "begin": "57.980",
-      "children": [],
       "end": "59.960",
       "id": "p000005s000002w000003",
-      "language": "hi",
       "lines": [
         "स्वराः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.४॥"
+      ]
+    },
+    {
       "begin": "59.960",
-      "children": [],
       "end": "61.390",
       "id": "p000006s000001w000001",
-      "language": "hi",
       "lines": [
         "आन्वीक्षिकी"
       ]
     },
     {
       "begin": "61.390",
-      "children": [],
       "end": "67.220",
       "id": "p000006s000001w000002",
-      "language": "hi",
       "lines": [
         "दण्डनीतिस्तर्कविद्यार्थशास्त्रयोः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "67.220",
-      "children": [],
       "end": "70.350",
       "id": "p000006s000002w000001",
-      "language": "hi",
       "lines": [
         "आख्यायिकोपलब्धार्था"
       ]
     },
     {
       "begin": "70.350",
-      "children": [],
       "end": "71.100",
       "id": "p000006s000002w000002",
-      "language": "hi",
       "lines": [
         "पुराणं"
       ]
     },
     {
       "begin": "71.100",
-      "children": [],
       "end": "72.840",
       "id": "p000006s000002w000003",
-      "language": "hi",
       "lines": [
         "पञ्चलक्षणम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.५॥"
+      ]
+    },
+    {
       "begin": "72.840",
-      "children": [],
       "end": "76.070",
       "id": "p000007s000001w000001",
-      "language": "hi",
       "lines": [
         "प्रबन्धकल्पना"
       ]
     },
     {
       "begin": "76.070",
-      "children": [],
       "end": "76.370",
       "id": "p000007s000001w000002",
-      "language": "hi",
       "lines": [
         "कथा"
       ]
     },
     {
       "begin": "76.370",
-      "children": [],
       "end": "77.580",
       "id": "p000007s000001w000003",
-      "language": "hi",
       "lines": [
         "प्रवह्लिका"
       ]
     },
     {
       "begin": "77.580",
-      "children": [],
       "end": "79.540",
       "id": "p000007s000001w000004",
-      "language": "hi",
       "lines": [
         "प्रहेलिका"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "79.540",
-      "children": [],
       "end": "80.225",
       "id": "p000007s000002w000001",
-      "language": "hi",
       "lines": [
         "स्मृतिस्तु"
       ]
     },
     {
       "begin": "80.225",
-      "children": [],
       "end": "82.550",
       "id": "p000007s000002w000002",
-      "language": "hi",
       "lines": [
         "धर्मसंहिता"
       ]
     },
     {
       "begin": "82.550",
-      "children": [],
       "end": "83.895",
       "id": "p000007s000002w000003",
-      "language": "hi",
       "lines": [
         "समाहृतिस्तु"
       ]
     },
     {
       "begin": "83.895",
-      "children": [],
       "end": "85.760",
       "id": "p000007s000002w000004",
-      "language": "hi",
       "lines": [
         "संग्रहः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.६॥"
+      ]
+    },
+    {
       "begin": "85.760",
-      "children": [],
       "end": "86.700",
       "id": "p000008s000001w000001",
-      "language": "hi",
       "lines": [
         "समस्या"
       ]
     },
     {
       "begin": "86.700",
-      "children": [],
       "end": "86.815",
       "id": "p000008s000001w000002",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "86.815",
-      "children": [],
       "end": "89.295",
       "id": "p000008s000001w000003",
-      "language": "hi",
       "lines": [
         "समासार्था"
       ]
     },
     {
       "begin": "89.295",
-      "children": [],
       "end": "90.500",
       "id": "p000008s000001w000004",
-      "language": "hi",
       "lines": [
         "किंवदन्ती"
       ]
     },
     {
       "begin": "90.500",
-      "children": [],
       "end": "92.260",
       "id": "p000008s000001w000005",
-      "language": "hi",
       "lines": [
         "जनश्रुतिः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "92.260",
-      "children": [],
       "end": "95.075",
       "id": "p000008s000002w000001",
-      "language": "hi",
       "lines": [
         "वार्ता"
       ]
     },
     {
       "begin": "95.075",
-      "children": [],
       "end": "96.155",
       "id": "p000008s000002w000002",
-      "language": "hi",
       "lines": [
         "प्रवृत्तिर्वृत्तान्त"
       ]
     },
     {
       "begin": "96.155",
-      "children": [],
       "end": "97.215",
       "id": "p000008s000002w000003",
-      "language": "hi",
       "lines": [
         "उदन्तः"
       ]
     },
     {
       "begin": "97.215",
-      "children": [],
       "end": "99.280",
       "id": "p000008s000002w000004",
-      "language": "hi",
       "lines": [
         "स्यादथाह्वयः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.७॥"
+      ]
+    },
+    {
       "begin": "99.280",
-      "children": [],
       "end": "101.820",
       "id": "p000009s000001w000001",
-      "language": "hi",
       "lines": [
         "आख्याह्वे"
       ]
     },
     {
       "begin": "101.820",
-      "children": [],
       "end": "102.975",
       "id": "p000009s000001w000002",
-      "language": "hi",
       "lines": [
         "अभिधानं"
       ]
     },
     {
       "begin": "102.975",
-      "children": [],
       "end": "103.035",
       "id": "p000009s000001w000003",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
       "begin": "103.035",
-      "children": [],
       "end": "105.095",
       "id": "p000009s000001w000004",
-      "language": "hi",
       "lines": [
         "नामधेयं"
       ]
     },
     {
       "begin": "105.095",
-      "children": [],
       "end": "105.285",
       "id": "p000009s000001w000005",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
       "begin": "105.285",
-      "children": [],
       "end": "105.685",
       "id": "p000009s000001w000006",
-      "language": "hi",
       "lines": [
         "नाम"
       ]
     },
     {
       "begin": "105.685",
-      "children": [],
       "end": "105.880",
       "id": "p000009s000001w000007",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "105.880",
-      "children": [],
       "end": "110.300",
       "id": "p000009s000002w000001",
-      "language": "hi",
       "lines": [
         "हूतिकारणाह्वानं"
       ]
     },
     {
       "begin": "110.300",
-      "children": [],
       "end": "112.050",
       "id": "p000009s000002w000002",
-      "language": "hi",
       "lines": [
         "संहूतिर्बहुभिः"
       ]
     },
     {
       "begin": "112.050",
-      "children": [],
       "end": "113.520",
       "id": "p000009s000002w000003",
-      "language": "hi",
       "lines": [
         "कृता"
       ]
     },
     {
+      "lines": [
+        "॥१.६.८॥"
+      ]
+    },
+    {
       "begin": "113.520",
-      "children": [],
       "end": "114.550",
       "id": "p000010s000001w000001",
-      "language": "hi",
       "lines": [
         "विवादो"
       ]
     },
     {
       "begin": "114.550",
-      "children": [],
       "end": "115.460",
       "id": "p000010s000001w000002",
-      "language": "hi",
       "lines": [
         "व्यवहारः"
       ]
     },
     {
       "begin": "115.460",
-      "children": [],
       "end": "118.225",
       "id": "p000010s000001w000003",
-      "language": "hi",
       "lines": [
         "स्यादुपन्यासस्तु"
       ]
     },
     {
       "begin": "118.225",
-      "children": [],
       "end": "119.660",
       "id": "p000010s000001w000004",
-      "language": "hi",
       "lines": [
         "वाङ्मुखम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "119.660",
-      "children": [],
       "end": "121.530",
       "id": "p000010s000002w000001",
-      "language": "hi",
       "lines": [
         "उपोद्धात"
       ]
     },
     {
       "begin": "121.530",
-      "children": [],
       "end": "123.420",
       "id": "p000010s000002w000002",
-      "language": "hi",
       "lines": [
         "उदाहारः"
       ]
     },
     {
       "begin": "123.420",
-      "children": [],
       "end": "124.140",
       "id": "p000010s000002w000003",
-      "language": "hi",
       "lines": [
         "शपनं"
       ]
     },
     {
       "begin": "124.140",
-      "children": [],
       "end": "124.790",
       "id": "p000010s000002w000004",
-      "language": "hi",
       "lines": [
         "शपथः"
       ]
     },
     {
       "begin": "124.790",
-      "children": [],
       "end": "126.160",
       "id": "p000010s000002w000005",
-      "language": "hi",
       "lines": [
         "पुमान्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.९॥"
+      ]
+    },
+    {
       "begin": "126.160",
-      "children": [],
       "end": "127.915",
       "id": "p000011s000001w000001",
-      "language": "hi",
       "lines": [
         "प्रश्नोऽनुयोगः"
       ]
     },
     {
       "begin": "127.915",
-      "children": [],
       "end": "128.710",
       "id": "p000011s000001w000002",
-      "language": "hi",
       "lines": [
         "पृच्छा"
       ]
     },
     {
       "begin": "128.710",
-      "children": [],
       "end": "128.845",
       "id": "p000011s000001w000003",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
       "begin": "128.845",
-      "children": [],
       "end": "131.840",
       "id": "p000011s000001w000004",
-      "language": "hi",
       "lines": [
         "प्रतिवाक्योत्तरे"
       ]
     },
     {
       "begin": "131.840",
-      "children": [],
       "end": "133.340",
       "id": "p000011s000001w000005",
-      "language": "hi",
       "lines": [
         "समे"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "133.340",
-      "children": [],
       "end": "137.680",
       "id": "p000011s000002w000001",
-      "language": "hi",
       "lines": [
         "मिथ्याभियोगोऽभ्याख्यानमथ"
       ]
     },
     {
       "begin": "137.680",
-      "children": [],
       "end": "139.800",
       "id": "p000011s000002w000002",
-      "language": "hi",
       "lines": [
         "मिथ्याभिशंसनम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१०॥"
+      ]
+    },
+    {
       "begin": "139.800",
-      "children": [],
       "end": "141.800",
       "id": "p000012s000001w000001",
-      "language": "hi",
       "lines": [
         "अभिशापः"
       ]
     },
     {
       "begin": "141.800",
-      "children": [],
       "end": "143.055",
       "id": "p000012s000001w000002",
-      "language": "hi",
       "lines": [
         "प्रणादस्तु"
       ]
     },
     {
       "begin": "143.055",
-      "children": [],
       "end": "143.650",
       "id": "p000012s000001w000003",
-      "language": "hi",
       "lines": [
         "शब्दः"
       ]
     },
     {
       "begin": "143.650",
-      "children": [],
       "end": "145.260",
       "id": "p000012s000001w000004",
-      "language": "hi",
       "lines": [
         "स्यादनुरागजः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "145.260",
-      "children": [],
       "end": "146.880",
       "id": "p000012s000002w000001",
-      "language": "hi",
       "lines": [
         "यशः"
       ]
     },
     {
       "begin": "146.880",
-      "children": [],
       "end": "147.705",
       "id": "p000012s000002w000002",
-      "language": "hi",
       "lines": [
         "कीर्तिः"
       ]
     },
     {
       "begin": "147.705",
-      "children": [],
       "end": "149.730",
       "id": "p000012s000002w000003",
-      "language": "hi",
       "lines": [
         "समज्ञा"
       ]
     },
     {
       "begin": "149.730",
-      "children": [],
       "end": "150.220",
       "id": "p000012s000002w000004",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
       "begin": "150.220",
-      "children": [],
       "end": "151.380",
       "id": "p000012s000002w000005",
-      "language": "hi",
       "lines": [
         "स्तवः"
       ]
     },
     {
       "begin": "151.380",
-      "children": [],
       "end": "151.540",
       "id": "p000012s000002w000006",
-      "language": "hi",
       "lines": [
         "स्तोत्रं"
       ]
     },
     {
       "begin": "151.540",
-      "children": [],
       "end": "153.400",
       "id": "p000012s000002w000007",
-      "language": "hi",
       "lines": [
         "स्तुतिर्नुतिः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.११॥"
+      ]
+    },
+    {
       "begin": "153.400",
-      "children": [],
       "end": "154.875",
       "id": "p000013s000001w000001",
-      "language": "hi",
       "lines": [
         "आम्रेडितं"
       ]
     },
     {
       "begin": "154.875",
-      "children": [],
       "end": "158.665",
       "id": "p000013s000001w000002",
-      "language": "hi",
       "lines": [
         "द्विस्त्रिरुक्तमुच्चैर्घृष्टं"
       ]
     },
     {
       "begin": "158.665",
-      "children": [],
       "end": "158.830",
       "id": "p000013s000001w000003",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "158.830",
-      "children": [],
       "end": "159.980",
       "id": "p000013s000001w000004",
-      "language": "hi",
       "lines": [
         "घोषणा"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "159.980",
-      "children": [],
       "end": "161.295",
       "id": "p000013s000002w000001",
-      "language": "hi",
       "lines": [
         "काकुः"
       ]
     },
     {
       "begin": "161.295",
-      "children": [],
       "end": "161.955",
       "id": "p000013s000002w000002",
-      "language": "hi",
       "lines": [
         "स्त्रियां"
       ]
     },
     {
       "begin": "161.955",
-      "children": [],
       "end": "162.830",
       "id": "p000013s000002w000003",
-      "language": "hi",
       "lines": [
         "विकारो"
       ]
     },
     {
       "begin": "162.830",
-      "children": [],
       "end": "164.110",
       "id": "p000013s000002w000004",
-      "language": "hi",
       "lines": [
         "यः"
       ]
     },
     {
       "begin": "164.110",
-      "children": [],
       "end": "168.040",
       "id": "p000013s000002w000005",
-      "language": "hi",
       "lines": [
         "शोकभीत्यादिभिर्ध्वनेः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१२॥"
+      ]
+    },
+    {
       "begin": "168.040",
-      "children": [],
       "end": "173.980",
       "id": "p000014s000001w000001",
-      "language": "hi",
       "lines": [
         "अवर्णाक्षेपनिर्वादपरीवादापवादवत्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "173.980",
-      "children": [],
       "end": "174.820",
       "id": "p000014s000002w000001",
-      "language": "hi",
       "lines": [
         "उपक्रोशो"
       ]
     },
     {
       "begin": "174.820",
-      "children": [],
       "end": "176.240",
       "id": "p000014s000002w000002",
-      "language": "hi",
       "lines": [
         "जुगुप्सा"
       ]
     },
     {
       "begin": "176.240",
-      "children": [],
       "end": "176.885",
       "id": "p000014s000002w000003",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
       "begin": "176.885",
-      "children": [],
       "end": "177.425",
       "id": "p000014s000002w000004",
-      "language": "hi",
       "lines": [
         "कुत्सा"
       ]
     },
     {
       "begin": "177.425",
-      "children": [],
       "end": "178.125",
       "id": "p000014s000002w000005",
-      "language": "hi",
       "lines": [
         "निन्दा"
       ]
     },
     {
       "begin": "178.125",
-      "children": [],
       "end": "178.305",
       "id": "p000014s000002w000006",
-      "language": "hi",
       "lines": [
         "च"
       ]
     },
     {
       "begin": "178.305",
-      "children": [],
       "end": "179.920",
       "id": "p000014s000002w000007",
-      "language": "hi",
       "lines": [
         "गर्हणे"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१३॥"
+      ]
+    },
+    {
       "begin": "179.920",
-      "children": [],
       "end": "181.600",
       "id": "p000015s000001w000001",
-      "language": "hi",
       "lines": [
         "पारुष्यमतिवादः"
       ]
     },
     {
       "begin": "181.600",
-      "children": [],
       "end": "184.215",
       "id": "p000015s000001w000002",
-      "language": "hi",
       "lines": [
         "स्याद्भर्त्सनं"
       ]
     },
     {
       "begin": "184.215",
-      "children": [],
       "end": "186.560",
       "id": "p000015s000001w000003",
-      "language": "hi",
       "lines": [
         "त्वपकारगीः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "186.560",
-      "children": [],
       "end": "186.740",
       "id": "p000015s000002w000001",
-      "language": "hi",
       "lines": [
         "यः"
       ]
     },
     {
       "begin": "186.740",
-      "children": [],
       "end": "187.580",
       "id": "p000015s000002w000002",
-      "language": "hi",
       "lines": [
         "सनिन्द"
       ]
     },
     {
       "begin": "187.580",
-      "children": [],
       "end": "190.280",
       "id": "p000015s000002w000003",
-      "language": "hi",
       "lines": [
         "उपालम्भस्तत्र"
       ]
     },
     {
       "begin": "190.280",
-      "children": [],
       "end": "192.760",
       "id": "p000015s000002w000004",
-      "language": "hi",
       "lines": [
         "स्यात्परिभाषणम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१४॥"
+      ]
+    },
+    {
       "begin": "192.760",
-      "children": [],
       "end": "193.845",
       "id": "p000016s000001w000001",
-      "language": "hi",
       "lines": [
         "तत्र"
       ]
     },
     {
       "begin": "193.845",
-      "children": [],
       "end": "195.395",
       "id": "p000016s000001w000002",
-      "language": "hi",
       "lines": [
         "त्वाक्षारणा"
       ]
     },
     {
       "begin": "195.395",
-      "children": [],
       "end": "195.625",
       "id": "p000016s000001w000003",
-      "language": "hi",
       "lines": [
         "यः"
       ]
     },
     {
       "begin": "195.625",
-      "children": [],
       "end": "198.360",
       "id": "p000016s000001w000004",
-      "language": "hi",
       "lines": [
         "स्यादाक्रोशो"
       ]
     },
     {
       "begin": "198.360",
-      "children": [],
       "end": "199.085",
       "id": "p000016s000001w000005",
-      "language": "hi",
       "lines": [
         "मैथुनं"
       ]
     },
     {
       "begin": "199.085",
-      "children": [],
       "end": "200.420",
       "id": "p000016s000001w000006",
-      "language": "hi",
       "lines": [
         "प्रति"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "200.420",
-      "children": [],
       "end": "203.340",
       "id": "p000016s000002w000001",
-      "language": "hi",
       "lines": [
         "स्यादाभाषणमालापः"
       ]
     },
     {
       "begin": "203.340",
-      "children": [],
       "end": "205.580",
       "id": "p000016s000002w000002",
-      "language": "hi",
       "lines": [
         "प्रलापोऽनर्थकं"
       ]
     },
     {
       "begin": "205.580",
-      "children": [],
       "end": "206.040",
       "id": "p000016s000002w000003",
-      "language": "hi",
       "lines": [
         "वचः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१५॥"
+      ]
+    },
+    {
       "begin": "206.040",
-      "children": [],
       "end": "208.165",
       "id": "p000017s000001w000001",
-      "language": "hi",
       "lines": [
         "अनुलापो"
       ]
     },
     {
       "begin": "208.165",
-      "children": [],
       "end": "210.110",
       "id": "p000017s000001w000002",
-      "language": "hi",
       "lines": [
         "मुहुर्भाषा"
       ]
     },
     {
       "begin": "210.110",
-      "children": [],
       "end": "210.835",
       "id": "p000017s000001w000003",
-      "language": "hi",
       "lines": [
         "विलापः"
       ]
     },
     {
       "begin": "210.835",
-      "children": [],
       "end": "213.260",
       "id": "p000017s000001w000004",
-      "language": "hi",
       "lines": [
         "परिदेवनम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "213.260",
-      "children": [],
       "end": "214.495",
       "id": "p000017s000002w000001",
-      "language": "hi",
       "lines": [
         "विप्रलापो"
       ]
     },
     {
       "begin": "214.495",
-      "children": [],
       "end": "216.855",
       "id": "p000017s000002w000002",
-      "language": "hi",
       "lines": [
         "विरोधोक्तिः"
       ]
     },
     {
       "begin": "216.855",
-      "children": [],
       "end": "217.895",
       "id": "p000017s000002w000003",
-      "language": "hi",
       "lines": [
         "संलापो"
       ]
     },
     {
       "begin": "217.895",
-      "children": [],
       "end": "218.680",
       "id": "p000017s000002w000004",
-      "language": "hi",
       "lines": [
         "भाषणं"
       ]
     },
     {
       "begin": "218.680",
-      "children": [],
       "end": "220.400",
       "id": "p000017s000002w000005",
-      "language": "hi",
       "lines": [
         "मिथः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१६॥"
+      ]
+    },
+    {
       "begin": "220.400",
-      "children": [],
       "end": "221.260",
       "id": "p000018s000001w000001",
-      "language": "hi",
       "lines": [
         "सुप्रलापः"
       ]
     },
     {
       "begin": "221.260",
-      "children": [],
       "end": "224.225",
       "id": "p000018s000001w000002",
-      "language": "hi",
       "lines": [
         "सुवचनमपलापस्तु"
       ]
     },
     {
       "begin": "224.225",
-      "children": [],
       "end": "226.540",
       "id": "p000018s000001w000003",
-      "language": "hi",
       "lines": [
         "निह्नवः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "226.540",
-      "children": [],
       "end": "229.950",
       "id": "p000018s000002w000001",
-      "language": "hi",
       "lines": [
         "चोद्यमाक्षेपाभियोगौ"
       ]
     },
     {
       "begin": "229.950",
-      "children": [],
       "end": "231.745",
       "id": "p000018s000002w000002",
-      "language": "hi",
       "lines": [
         "शापाक्रोशौ"
       ]
     },
     {
       "begin": "231.745",
-      "children": [],
       "end": "233.080",
       "id": "p000018s000002w000003",
-      "language": "hi",
       "lines": [
         "दुरेषणा"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१७॥"
+      ]
+    },
+    {
       "begin": "233.080",
-      "children": [],
       "end": "234.310",
       "id": "p000019s000001w000001",
-      "language": "hi",
       "lines": [
         "अस्त्री"
       ]
     },
     {
       "begin": "234.310",
-      "children": [],
       "end": "234.870",
       "id": "p000019s000001w000002",
-      "language": "hi",
       "lines": [
         "चाटु"
       ]
     },
     {
       "begin": "234.870",
-      "children": [],
       "end": "235.160",
       "id": "p000019s000001w000003",
-      "language": "hi",
       "lines": [
         "चटु"
       ]
     },
     {
       "begin": "235.160",
-      "children": [],
       "end": "236.760",
       "id": "p000019s000001w000004",
-      "language": "hi",
       "lines": [
         "श्लाघा"
       ]
     },
     {
       "begin": "236.760",
-      "children": [],
       "end": "237.670",
       "id": "p000019s000001w000005",
-      "language": "hi",
       "lines": [
         "प्रेम्णा"
       ]
     },
     {
       "begin": "237.670",
-      "children": [],
       "end": "238.380",
       "id": "p000019s000001w000006",
-      "language": "hi",
       "lines": [
         "मिथ्या"
       ]
     },
     {
       "begin": "238.380",
-      "children": [],
       "end": "240.120",
       "id": "p000019s000001w000007",
-      "language": "hi",
       "lines": [
         "विकत्थनम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "240.120",
-      "children": [],
       "end": "242.530",
       "id": "p000019s000002w000001",
-      "language": "hi",
       "lines": [
         "सन्देशवाग्वाचिकं"
       ]
     },
     {
       "begin": "242.530",
-      "children": [],
       "end": "245.890",
       "id": "p000019s000002w000002",
-      "language": "hi",
       "lines": [
         "स्याद्वाग्भेदास्तु"
       ]
     },
     {
       "begin": "245.890",
-      "children": [],
       "end": "248.160",
       "id": "p000019s000002w000003",
-      "language": "hi",
       "lines": [
         "त्रिषूत्तरे"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१८॥"
+      ]
+    },
+    {
       "begin": "248.160",
-      "children": [],
       "end": "248.570",
       "id": "p000020s000001w000001",
-      "language": "hi",
       "lines": [
         "रुशती"
       ]
     },
     {
       "begin": "248.570",
-      "children": [],
       "end": "250.670",
       "id": "p000020s000001w000002",
-      "language": "hi",
       "lines": [
         "वागकल्याणी"
       ]
     },
     {
       "begin": "250.670",
-      "children": [],
       "end": "252.200",
       "id": "p000020s000001w000003",
-      "language": "hi",
       "lines": [
         "स्यात्कल्या"
       ]
     },
     {
       "begin": "252.200",
-      "children": [],
       "end": "252.310",
       "id": "p000020s000001w000004",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "252.310",
-      "children": [],
       "end": "253.980",
       "id": "p000020s000001w000005",
-      "language": "hi",
       "lines": [
         "शुभात्मिका"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "253.980",
-      "children": [],
       "end": "255.800",
       "id": "p000020s000002w000001",
-      "language": "hi",
       "lines": [
         "अत्यर्थमधुरं"
       ]
     },
     {
       "begin": "255.800",
-      "children": [],
       "end": "256.525",
       "id": "p000020s000002w000002",
-      "language": "hi",
       "lines": [
         "सान्त्वं"
       ]
     },
     {
       "begin": "256.525",
-      "children": [],
       "end": "257.455",
       "id": "p000020s000002w000003",
-      "language": "hi",
       "lines": [
         "सङ्गतं"
       ]
     },
     {
       "begin": "257.455",
-      "children": [],
       "end": "260.200",
       "id": "p000020s000002w000004",
-      "language": "hi",
       "lines": [
         "हृदयङ्गमम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.१९॥"
+      ]
+    },
+    {
       "begin": "260.200",
-      "children": [],
       "end": "261.030",
       "id": "p000021s000001w000001",
-      "language": "hi",
       "lines": [
         "निष्ठुरं"
       ]
     },
     {
       "begin": "261.030",
-      "children": [],
       "end": "261.725",
       "id": "p000021s000001w000002",
-      "language": "hi",
       "lines": [
         "परुषं"
       ]
     },
     {
       "begin": "261.725",
-      "children": [],
       "end": "264.255",
       "id": "p000021s000001w000003",
-      "language": "hi",
       "lines": [
         "ग्राम्यमश्लीलं"
       ]
     },
     {
       "begin": "264.255",
-      "children": [],
       "end": "264.960",
       "id": "p000021s000001w000004",
-      "language": "hi",
       "lines": [
         "सूनृतं"
       ]
     },
     {
       "begin": "264.960",
-      "children": [],
       "end": "266.320",
       "id": "p000021s000001w000005",
-      "language": "hi",
       "lines": [
         "प्रिये"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "266.320",
-      "children": [],
       "end": "267.270",
       "id": "p000021s000002w000001",
-      "language": "hi",
       "lines": [
         "सत्येऽथ"
       ]
     },
     {
       "begin": "267.270",
-      "children": [],
       "end": "269.430",
       "id": "p000021s000002w000002",
-      "language": "hi",
       "lines": [
         "सङ्कुलक्लिष्टे"
       ]
     },
     {
       "begin": "269.430",
-      "children": [],
       "end": "271.400",
       "id": "p000021s000002w000003",
-      "language": "hi",
       "lines": [
         "परस्परपराहतम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२०॥"
+      ]
+    },
+    {
       "begin": "271.400",
-      "children": [],
       "end": "273.385",
       "id": "p000022s000001w000001",
-      "language": "hi",
       "lines": [
         "लुप्तवर्णपदं"
       ]
     },
     {
       "begin": "273.385",
-      "children": [],
       "end": "273.940",
       "id": "p000022s000001w000002",
-      "language": "hi",
       "lines": [
         "ग्रस्तं"
       ]
     },
     {
       "begin": "273.940",
-      "children": [],
       "end": "276.085",
       "id": "p000022s000001w000003",
-      "language": "hi",
       "lines": [
         "निरस्तं"
       ]
     },
     {
       "begin": "276.085",
-      "children": [],
       "end": "277.520",
       "id": "p000022s000001w000004",
-      "language": "hi",
       "lines": [
         "त्वरितोदितम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "277.520",
-      "children": [],
       "end": "278.705",
       "id": "p000022s000002w000001",
-      "language": "hi",
       "lines": [
         "अम्बूकृतं"
       ]
     },
     {
       "begin": "278.705",
-      "children": [],
       "end": "281.455",
       "id": "p000022s000002w000002",
-      "language": "hi",
       "lines": [
         "सनिष्टीवमबद्धं"
       ]
     },
     {
       "begin": "281.455",
-      "children": [],
       "end": "283.760",
       "id": "p000022s000002w000003",
-      "language": "hi",
       "lines": [
         "स्यादनर्थकम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२१॥"
+      ]
+    },
+    {
       "begin": "283.760",
-      "children": [],
       "end": "285.730",
       "id": "p000023s000001w000001",
-      "language": "hi",
       "lines": [
         "अनक्षरमवाच्यं"
       ]
     },
     {
       "begin": "285.730",
-      "children": [],
       "end": "287.805",
       "id": "p000023s000001w000002",
-      "language": "hi",
       "lines": [
         "स्यादाहतं"
       ]
     },
     {
       "begin": "287.805",
-      "children": [],
       "end": "287.975",
       "id": "p000023s000001w000003",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "287.975",
-      "children": [],
       "end": "290.060",
       "id": "p000023s000001w000004",
-      "language": "hi",
       "lines": [
         "मृषार्थकम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "290.060",
-      "children": [],
       "end": "291.455",
       "id": "p000023s000002w000001",
-      "language": "hi",
       "lines": [
         "सोल्लुण्ठनं"
       ]
     },
     {
       "begin": "291.455",
-      "children": [],
       "end": "291.630",
       "id": "p000023s000002w000002",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "291.630",
-      "children": [],
       "end": "293.020",
       "id": "p000023s000002w000003",
-      "language": "hi",
       "lines": [
         "सोत्प्रासं"
       ]
     },
     {
       "begin": "293.020",
-      "children": [],
       "end": "294.205",
       "id": "p000023s000002w000004",
-      "language": "hi",
       "lines": [
         "मणितं"
       ]
     },
     {
       "begin": "294.205",
-      "children": [],
       "end": "296.160",
       "id": "p000023s000002w000005",
-      "language": "hi",
       "lines": [
         "रतिकूजितम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२२॥"
+      ]
+    },
+    {
       "begin": "296.160",
-      "children": [],
       "end": "297.265",
       "id": "p000024s000001w000001",
-      "language": "hi",
       "lines": [
         "श्राव्यं"
       ]
     },
     {
       "begin": "297.265",
-      "children": [],
       "end": "297.845",
       "id": "p000024s000001w000002",
-      "language": "hi",
       "lines": [
         "हृद्यं"
       ]
     },
     {
       "begin": "297.845",
-      "children": [],
       "end": "299.555",
       "id": "p000024s000001w000003",
-      "language": "hi",
       "lines": [
         "मनोहारि"
       ]
     },
     {
       "begin": "299.555",
-      "children": [],
       "end": "301.270",
       "id": "p000024s000001w000004",
-      "language": "hi",
       "lines": [
         "विस्पष्टं"
       ]
     },
     {
       "begin": "301.270",
-      "children": [],
       "end": "301.980",
       "id": "p000024s000001w000005",
-      "language": "hi",
       "lines": [
         "प्रकटोदितम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "301.980",
-      "children": [],
       "end": "302.730",
       "id": "p000024s000002w000001",
-      "language": "hi",
       "lines": [
         "अथ"
       ]
     },
     {
       "begin": "302.730",
-      "children": [],
       "end": "304.615",
       "id": "p000024s000002w000002",
-      "language": "hi",
       "lines": [
         "म्लिष्टमविस्पष्टं"
       ]
     },
     {
       "begin": "304.615",
-      "children": [],
       "end": "305.500",
       "id": "p000024s000002w000003",
-      "language": "hi",
       "lines": [
         "वितथं"
       ]
     },
     {
       "begin": "305.500",
-      "children": [],
       "end": "306.465",
       "id": "p000024s000002w000004",
-      "language": "hi",
       "lines": [
         "त्वनृतं"
       ]
     },
     {
       "begin": "306.465",
-      "children": [],
       "end": "307.040",
       "id": "p000024s000002w000005",
-      "language": "hi",
       "lines": [
         "वचः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२३॥"
+      ]
+    },
+    {
       "begin": "307.040",
-      "children": [],
       "end": "308.980",
       "id": "p000025s000001w000001",
-      "language": "hi",
       "lines": [
         "सत्यं"
       ]
     },
     {
       "begin": "308.980",
-      "children": [],
       "end": "310.060",
       "id": "p000025s000001w000002",
-      "language": "hi",
       "lines": [
         "तथ्यमृतं"
       ]
     },
     {
       "begin": "310.060",
-      "children": [],
       "end": "312.345",
       "id": "p000025s000001w000003",
-      "language": "hi",
       "lines": [
         "सम्यगमूनि"
       ]
     },
     {
       "begin": "312.345",
-      "children": [],
       "end": "312.665",
       "id": "p000025s000001w000004",
-      "language": "hi",
       "lines": [
         "त्रिषु"
       ]
     },
     {
       "begin": "312.665",
-      "children": [],
       "end": "314.160",
       "id": "p000025s000001w000005",
-      "language": "hi",
       "lines": [
         "तद्वति"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "314.160",
-      "children": [],
       "end": "315.080",
       "id": "p000025s000002w000001",
-      "language": "hi",
       "lines": [
         "शब्दे"
       ]
     },
     {
       "begin": "315.080",
-      "children": [],
       "end": "319.640",
       "id": "p000025s000002w000002",
-      "language": "hi",
       "lines": [
         "निनादनिनदध्वनिध्वानरवस्वनाः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२४॥"
+      ]
+    },
+    {
       "begin": "319.640",
-      "children": [],
       "end": "325.020",
       "id": "p000026s000001w000001",
-      "language": "hi",
       "lines": [
         "स्वाननिर्घोषनिर्ह्रादनादनिस्वाननिस्वनाः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "325.020",
-      "children": [],
       "end": "329.735",
       "id": "p000026s000002w000001",
-      "language": "hi",
       "lines": [
         "आरवारावसंरावविरावा"
       ]
     },
     {
       "begin": "329.735",
-      "children": [],
       "end": "330.335",
       "id": "p000026s000002w000002",
-      "language": "hi",
       "lines": [
         "अथ"
       ]
     },
     {
       "begin": "330.335",
-      "children": [],
       "end": "331.000",
       "id": "p000026s000002w000003",
-      "language": "hi",
       "lines": [
         "मर्मरः"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२५॥"
+      ]
+    },
+    {
       "begin": "331.000",
-      "children": [],
       "end": "331.805",
       "id": "p000027s000001w000001",
-      "language": "hi",
       "lines": [
         "स्वनिते"
       ]
     },
     {
       "begin": "331.805",
-      "children": [],
       "end": "334.180",
       "id": "p000027s000001w000002",
-      "language": "hi",
       "lines": [
         "वस्त्रपर्णानां"
       ]
     },
     {
       "begin": "334.180",
-      "children": [],
       "end": "335.335",
       "id": "p000027s000001w000003",
-      "language": "hi",
       "lines": [
         "भूषणानां"
       ]
     },
     {
       "begin": "335.335",
-      "children": [],
       "end": "335.670",
       "id": "p000027s000001w000004",
-      "language": "hi",
       "lines": [
         "तु"
       ]
     },
     {
       "begin": "335.670",
-      "children": [],
       "end": "337.460",
       "id": "p000027s000001w000005",
-      "language": "hi",
       "lines": [
         "शिञ्जितम्"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "337.460",
-      "children": [],
       "end": "338.545",
       "id": "p000027s000002w000001",
-      "language": "hi",
       "lines": [
         "निक्वाणो"
       ]
     },
     {
       "begin": "338.545",
-      "children": [],
       "end": "339.455",
       "id": "p000027s000002w000002",
-      "language": "hi",
       "lines": [
         "निक्वणः"
       ]
     },
     {
       "begin": "339.455",
-      "children": [],
       "end": "340.035",
       "id": "p000027s000002w000003",
-      "language": "hi",
       "lines": [
         "क्वाणः"
       ]
     },
     {
       "begin": "340.035",
-      "children": [],
       "end": "341.465",
       "id": "p000027s000002w000004",
-      "language": "hi",
       "lines": [
         "क्वणः"
       ]
     },
     {
       "begin": "341.465",
-      "children": [],
       "end": "343.600",
       "id": "p000027s000002w000005",
-      "language": "hi",
       "lines": [
         "क्वणनमित्यपि"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२६॥"
+      ]
+    },
+    {
       "begin": "343.600",
-      "children": [],
       "end": "344.735",
       "id": "p000028s000001w000001",
-      "language": "hi",
       "lines": [
         "वीणायाः"
       ]
     },
     {
       "begin": "344.735",
-      "children": [],
       "end": "345.925",
       "id": "p000028s000001w000002",
-      "language": "hi",
       "lines": [
         "क्वणिते"
       ]
     },
     {
       "begin": "345.925",
-      "children": [],
       "end": "347.575",
       "id": "p000028s000001w000003",
-      "language": "hi",
       "lines": [
         "प्रादेः"
       ]
     },
     {
       "begin": "347.575",
-      "children": [],
       "end": "353.060",
       "id": "p000028s000001w000004",
-      "language": "hi",
       "lines": [
         "प्रक्वाणप्रक्वणादयः"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
       "begin": "353.060",
-      "children": [],
       "end": "354.040",
       "id": "p000028s000002w000001",
-      "language": "hi",
       "lines": [
         "कोलाहलः"
       ]
     },
     {
       "begin": "354.040",
-      "children": [],
       "end": "355.395",
       "id": "p000028s000002w000002",
-      "language": "hi",
       "lines": [
         "कलकलस्तिरश्चां"
       ]
     },
     {
       "begin": "355.395",
-      "children": [],
       "end": "357.105",
       "id": "p000028s000002w000003",
-      "language": "hi",
       "lines": [
         "वाशितं"
       ]
     },
     {
       "begin": "357.105",
-      "children": [],
       "end": "357.560",
       "id": "p000028s000002w000004",
-      "language": "hi",
       "lines": [
         "रुतम्"
       ]
     },
     {
+      "lines": [
+        "॥१.६.२७॥"
+      ]
+    },
+    {
       "begin": "357.560",
-      "children": [],
       "end": "358.445",
       "id": "p000029s000001w000001",
-      "language": "hi",
       "lines": [
         "स्त्री"
       ]
     },
     {
       "begin": "358.445",
-      "children": [],
       "end": "361.495",
       "id": "p000029s000001w000002",
-      "language": "hi",
       "lines": [
         "प्रतिश्रुत्प्रतिध्वाने"
       ]
     },
     {
       "begin": "361.495",
-      "children": [],
       "end": "362.195",
       "id": "p000029s000001w000003",
-      "language": "hi",
       "lines": [
         "गीतं"
       ]
     },
     {
       "begin": "362.195",
-      "children": [],
       "end": "363.115",
       "id": "p000029s000001w000004",
-      "language": "hi",
       "lines": [
         "गानमिमे"
       ]
     },
     {
       "begin": "363.115",
-      "children": [],
       "end": "365.040",
       "id": "p000029s000001w000005",
-      "language": "hi",
       "lines": [
         "समे"
       ]
     },
     {
+      "lines": [
+        "।"
+      ]
+    },
+    {
+      "lines": [
+        "॥१.६.२८॥"
+      ]
+    },
+    {
       "begin": "365.040",
-      "children": [],
       "end": "365.305",
       "id": "p000030s000001w000001",
-      "language": "hi",
       "lines": [
         "इति"
       ]
     },
     {
       "begin": "365.305",
-      "children": [],
       "end": "368.240",
       "id": "p000030s000001w000002",
-      "language": "hi",
       "lines": [
         "शब्दादिवर्गः"
+      ]
+    },
+    {
+      "lines": [
+        "।"
       ]
     }
   ]

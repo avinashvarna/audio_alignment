@@ -71,76 +71,6 @@ webapp.url_map.strict_slashes = False
 # Corpus Parsing
 
 
-def zfill(int_or_str, length):
-    return str(int_or_str).zfill(length)
-
-
-def create_hierarchy_from_text(text_path):
-    with open(text_path, mode='r', encoding='utf-8') as f:
-        lines = f.read().strip().split('\n')
-
-    p_id = 1
-    s_id = 1
-    w_id = 1
-    id_length = 6
-
-    p_tags = []
-    s_tags = []
-    w_tags = []
-
-    for line in lines:
-        if not line.strip():
-            p_tags.append({
-                "id": f"p{zfill(p_id, id_length)}",
-                "tag": "p",
-                "data": s_tags
-            })
-            p_id += 1
-            s_id = 1
-            w_id = 1
-            s_tags = []
-        else:
-            # Assumption that text within [] will not contain spaces
-            words = line.split()
-            for word in words:
-                ignored_match = re.match(r"\[(.*?)\]", word)
-                if ignored_match:
-                    w_tags.append({
-                        "tag": "span",
-                        "text": ignored_match.group(1)
-                    })
-                    continue
-
-                _w_id = (f'p{zfill(p_id, id_length)}'
-                         f's{zfill(s_id, id_length)}'
-                         f'w{zfill(w_id, id_length)}')
-                w_tags.append({
-                    "id": _w_id,
-                    "tag": "span",
-                    "text": word
-                })
-                w_id += 1
-
-            _s_id = f'p{zfill(p_id, id_length)}s{zfill(s_id, id_length)}'
-            s_tags.append({
-                "id": _s_id,
-                "tag": "span",
-                "data": w_tags
-            })
-
-            s_id += 1
-            w_id = 1
-            w_tags = []
-    else:
-        p_tags.append({
-            "id": f"p{zfill(p_id, id_length)}",
-            "tag": "p",
-            "data": s_tags
-        })
-
-    return p_tags
-
-
 def create_hierarchy_from_alignment(word_alignment_path):
     with open(word_alignment_path, encoding='utf-8') as f:
         word_alignment = json.load(f)
@@ -153,9 +83,9 @@ def create_hierarchy_from_alignment(word_alignment_path):
     last_s = 1
     last_p = 1
     for fragment in word_alignment['fragments']:
-        fragment_id = fragment['id']
-        match = re.match(r'^p(\d+)s(\d+)w(\d+)$', fragment_id)
-        if match:
+        if "id" in fragment:
+            fragment_id = fragment['id']
+            match = re.match(r'^p(\d+)s(\d+)w(\d+)$', fragment_id)
             p = int(match.group(1))
             s = int(match.group(2))
             if s > last_s:
@@ -177,47 +107,6 @@ def create_hierarchy_from_alignment(word_alignment_path):
         content.append(current_paragraph)
 
     return content
-
-
-def create_alignment_times(word_alignment_path):
-    with open(word_alignment_path, encoding="utf-8") as f:
-        word_alignment = json.load(f)
-
-    alignment_times = {}
-    prev_p_id = None
-    prev_s_id = None
-
-    for fragment in word_alignment["fragments"]:
-        match = re.match(r'^(p\d+)(s\d+)(w\d+)$', fragment["id"])
-        if match:
-            curr_p_id = match.group(1)
-            curr_s_id = f"{match.group(1)}{match.group(2)}"
-
-            if curr_p_id != prev_p_id:
-                if prev_p_id is not None:
-                    alignment_times[prev_p_id]["end"] = fragment["begin"]
-                prev_p_id = curr_p_id
-                alignment_times[curr_p_id] = {
-                    "begin": fragment["begin"]
-                }
-
-            if curr_s_id != prev_s_id:
-                if prev_s_id is not None:
-                    alignment_times[prev_s_id]["end"] = fragment["begin"]
-                prev_s_id = curr_s_id
-                alignment_times[curr_s_id] = {
-                    "begin": fragment["begin"]
-                }
-
-        alignment_times[fragment["id"]] = {
-            "begin": fragment["begin"],
-            "end": fragment["end"]
-        }
-
-    alignment_times[curr_p_id]["end"] = fragment["end"]
-    alignment_times[curr_s_id]["end"] = fragment["end"]
-
-    return alignment_times
 
 ###############################################################################
 
@@ -268,18 +157,8 @@ def show_corpus(corpus_id=None, chapter_id=None):
             corpus_path, chapter['word_alignment']
         )
 
-        if chapter.get('text') is not None:
-            chapter_text_file = os.path.join(corpus_path, chapter['text'])
-            chapter_hierarchy = create_hierarchy_from_text(chapter_text_file)
-            alignment_times = create_alignment_times(word_alignment_file)
-
-            data['structure_from'] = 'text'
-            data['hierarchy'] = chapter_hierarchy
-            data['alignment'] = alignment_times
-        else:
-            data['structure_from'] = 'alignment'
-            hierarchy = create_hierarchy_from_alignment(word_alignment_file)
-            data['hierarchy'] = hierarchy
+        hierarchy = create_hierarchy_from_alignment(word_alignment_file)
+        data['hierarchy'] = hierarchy
 
     return render_template("corpus.html", data=data)
 
