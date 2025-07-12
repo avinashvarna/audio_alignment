@@ -1,3 +1,10 @@
+*.mp3
+*.clean
+clean_text
+cleaned
+.vscode
+*.bak
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
