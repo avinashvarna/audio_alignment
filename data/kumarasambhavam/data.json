@@ -1,0 +1,70 @@
+{
+  "name": "कुमारसम्भवम्",
+  "description": "Text Source: <a href='https://raw.githubusercontent.com/sanskritsahitya-com/data/main/kumarasambhavam/kumarasambhavam.json'>sanskritsahitya.org</a>\n<br>\nAudio Source: <a href='https://archive.org/details/kumarasambhavam-audio'>Vedabhoomi recordings</a>",
+  "data": [
+    {
+      "id": "1",
+      "name": "प्रथमः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-01.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-01.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-01.json",
+      "text": "text/01.txt"
+    },
+    {
+      "id": "2",
+      "name": "द्वितीयः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-02.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-02.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-02.json",
+      "text": "text/02.txt"
+    },
+    {
+      "id": "3",
+      "name": "तृतीयः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-03.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-03.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-03.json",
+      "text": "text/03.txt"
+    },
+    {
+      "id": "4",
+      "name": "चतुर्थः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-04.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-04.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-04.json",
+      "text": "text/04.txt"
+    },
+    {
+      "id": "5",
+      "name": "पञ्चमः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-05.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-05.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-05.json",
+      "text": "text/05.txt"
+    },
+    {
+      "id": "6",
+      "name": "षष्ठः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-06.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-06.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-06.json",
+      "text": "text/06.txt"
+    },
+    {
+      "id": "7",
+      "name": "सप्तमः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-07.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-07.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-07.json",
+      "text": "text/07.txt"
+    },
+    {
+      "id": "8",
+      "name": "अष्टमः सर्गः",
+      "audio_url": "https://archive.org/download/kumarasambhavam-audio/Kumarasambhavam-08.mp3",
+      "word_alignment": "word_alignment/Kumarasambhavam-08.json",
+      "sentence_alignment": "sentence_alignment/Kumarasambhavam-08.json",
+      "text": "text/08.txt"
+    }
+  ]
+}
