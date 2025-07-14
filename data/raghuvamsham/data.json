@@ -1,0 +1,158 @@
+{
+  "name": "रघुवंशम्",
+  "description": "Text Source: <a href='https://raw.githubusercontent.com/sanskritsahitya-com/data/main/raghuvansham/raghuvansham.json'>sanskritsahitya.org</a>\n<br>\nAudio Source: <a href='https://archive.org/details/raghuvamsham-audio'>Vedabhoomi recordings</a>",
+  "data": [
+    {
+      "id": "1",
+      "name": "प्रथमः सर्गः (वसिष्ठाश्रमाभिगमनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-01.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-01.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-01.json",
+      "text": "text/01.txt"
+    },
+    {
+      "id": "2",
+      "name": "द्वितीयः सर्गः (नन्दिनीवरप्रदानम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-02.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-02.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-02.json",
+      "text": "text/02.txt"
+    },
+    {
+      "id": "3",
+      "name": "तृतीयः सर्गः (रघुराज्याभिषेकः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-03.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-03.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-03.json",
+      "text": "text/03.txt"
+    },
+    {
+      "id": "4",
+      "name": "चतुर्थः सर्गः (रघुदिग्विजयः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-04.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-04.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-04.json",
+      "text": "text/04.txt"
+    },
+    {
+      "id": "5",
+      "name": "पञ्चमः सर्गः (अजस्वयंवराभिगमनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-05.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-05.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-05.json",
+      "text": "text/05.txt"
+    },
+    {
+      "id": "6",
+      "name": "षष्ठः सर्गः (स्वयंवरवर्णनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-06.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-06.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-06.json",
+      "text": "text/06.txt"
+    },
+    {
+      "id": "7",
+      "name": "सप्तमः सर्गः (अजपाणिग्रहणम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-07.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-07.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-07.json",
+      "text": "text/07.txt"
+    },
+    {
+      "id": "8",
+      "name": "अष्टमः सर्गः (अजविलापः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-08.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-08.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-08.json",
+      "text": "text/08.txt"
+    },
+    {
+      "id": "9",
+      "name": "प्रथमः सर्गः (वसिष्ठाश्रमाभिगमनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-09.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-09.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-09.json",
+      "text": "text/09.txt"
+    },
+    {
+      "id": "10",
+      "name": "दशमः सर्गः (रामावतारः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-10.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-10.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-10.json",
+      "text": "text/10.txt"
+    },
+    {
+      "id": "11",
+      "name": "एकादशः सर्गः (सीताविवाहवर्णनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-11.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-11.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-11.json",
+      "text": "text/11.txt"
+    },
+    {
+      "id": "12",
+      "name": "द्वादशः सर्गः (रावणवधः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-12.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-12.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-12.json",
+      "text": "text/12.txt"
+    },
+    {
+      "id": "13",
+      "name": "त्रयोदशः सर्गः (दण्डकाप्रत्यागमनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-13.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-13.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-13.json",
+      "text": "text/13.txt"
+    },
+    {
+      "id": "14",
+      "name": "चतुर्दशः सर्गः (सीतापरित्यागः",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-14.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-14.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-14.json",
+      "text": "text/14.txt"
+    },
+    {
+      "id": "15",
+      "name": "पञ्चदशः सर्गः (श्रीरामस्वर्गारोहणम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-15.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-15.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-15.json",
+      "text": "text/15.txt"
+    },
+    {
+      "id": "16",
+      "name": "षोडशः सर्गः (कुमुद्वतीपरिणयः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-16.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-16.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-16.json",
+      "text": "text/16.txt"
+    },
+    {
+      "id": "17",
+      "name": "सप्तदशः सर्गः (अतिथिवर्णनम्)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-17.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-17.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-17.json",
+      "text": "text/17.txt"
+    },
+    {
+      "id": "18",
+      "name": "अष्टादशः सर्गः (वंशानुक्रमः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-18.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-18.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-18.json",
+      "text": "text/18.txt"
+    },
+    {
+      "id": "19",
+      "name": "एकोनविंशः सर्गः (अग्निवर्णशृङ्गारः)",
+      "audio_url": "https://archive.org/download/raghuvamsham-audio/Raghuvamsham-19.mp3",
+      "word_alignment": "word_alignment/Raghuvamsham-19.json",
+      "sentence_alignment": "sentence_alignment/Raghuvamsham-19.json",
+      "text": "text/19.txt"
+    }
+  ]
+}
