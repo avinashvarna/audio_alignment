@@ -1,10 +1,10 @@
 {
-  "name": "Tarkasaṁgrahaḥ",
+  "name": "तर्कसङ्ग्रहः",
   "description": "Tarkasaṁgrahaḥ\n<br>\nText Source: <a href='https://sanskritdocuments.org/doc_z_misc_major_works/tarka2.html'>https://sanskritdocuments.org/doc_z_misc_major_works/tarka2.html</a>\n<br>\nAudio Source: <a href='https://archive.org/download/tarkasaMgrahaH/tarkasaMgrahaH.mp3'>https://archive.org/download/tarkasaMgrahaH/tarkasaMgrahaH.mp3</a>\n<br>\nAligned by: Avinash Varna",
   "data": [
     {
       "id": "1",
-      "name": "Tarkasaṁgrahaḥ",
+      "name": "तर्कसङ्ग्रहः",
       "audio_url": "https://archive.org/download/tarkasaMgrahaH/tarkasaMgrahaH.mp3",
       "word_alignment": "word_alignment/tarkasaMgrahaH.json",
       "sentence_alignment": "sentence_alignment/tarkasaMgrahaH.json"

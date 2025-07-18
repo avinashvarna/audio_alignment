@@ -9,7 +9,7 @@
       "word_alignment": "word_alignment/1.1.json",
       "sentence_alignment": "sentence_alignment/1.1.json",
       "text": "text/1.1.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.2",
@@ -18,7 +18,7 @@
       "word_alignment": "word_alignment/1.2.json",
       "sentence_alignment": "sentence_alignment/1.2.json",
       "text": "text/1.2.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.3",
@@ -27,7 +27,7 @@
       "word_alignment": "word_alignment/1.3.json",
       "sentence_alignment": "sentence_alignment/1.3.json",
       "text": "text/1.3.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.4",
@@ -36,7 +36,7 @@
       "word_alignment": "word_alignment/1.4.json",
       "sentence_alignment": "sentence_alignment/1.4.json",
       "text": "text/1.4.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.5",
@@ -45,7 +45,7 @@
       "word_alignment": "word_alignment/1.5.json",
       "sentence_alignment": "sentence_alignment/1.5.json",
       "text": "text/1.5.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.6",
@@ -54,7 +54,7 @@
       "word_alignment": "word_alignment/1.6.json",
       "sentence_alignment": "sentence_alignment/1.6.json",
       "text": "text/1.6.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.7",
@@ -63,7 +63,7 @@
       "word_alignment": "word_alignment/1.7.json",
       "sentence_alignment": "sentence_alignment/1.7.json",
       "text": "text/1.7.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.8",
@@ -72,7 +72,7 @@
       "word_alignment": "word_alignment/1.8.json",
       "sentence_alignment": "sentence_alignment/1.8.json",
       "text": "text/1.8.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.9",
@@ -81,7 +81,7 @@
       "word_alignment": "word_alignment/1.9.json",
       "sentence_alignment": "sentence_alignment/1.9.json",
       "text": "text/1.9.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "1.10",
@@ -90,7 +90,7 @@
       "word_alignment": "word_alignment/1.10.json",
       "sentence_alignment": "sentence_alignment/1.10.json",
       "text": "text/1.10.txt",
-      "subfolder": "Kanda 1"
+      "section": "Kanda 1"
     },
     {
       "id": "2.1",
@@ -99,7 +99,7 @@
       "word_alignment": "word_alignment/2.1.json",
       "sentence_alignment": "sentence_alignment/2.1.json",
       "text": "text/2.1.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.2",
@@ -108,7 +108,7 @@
       "word_alignment": "word_alignment/2.2.json",
       "sentence_alignment": "sentence_alignment/2.2.json",
       "text": "text/2.2.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.3",
@@ -117,7 +117,7 @@
       "word_alignment": "word_alignment/2.3.json",
       "sentence_alignment": "sentence_alignment/2.3.json",
       "text": "text/2.3.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.4",
@@ -126,7 +126,7 @@
       "word_alignment": "word_alignment/2.4.json",
       "sentence_alignment": "sentence_alignment/2.4.json",
       "text": "text/2.4.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.5",
@@ -135,7 +135,7 @@
       "word_alignment": "word_alignment/2.5.json",
       "sentence_alignment": "sentence_alignment/2.5.json",
       "text": "text/2.5.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.6",
@@ -144,7 +144,7 @@
       "word_alignment": "word_alignment/2.6.json",
       "sentence_alignment": "sentence_alignment/2.6.json",
       "text": "text/2.6.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.7",
@@ -153,7 +153,7 @@
       "word_alignment": "word_alignment/2.7.json",
       "sentence_alignment": "sentence_alignment/2.7.json",
       "text": "text/2.7.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.8",
@@ -162,7 +162,7 @@
       "word_alignment": "word_alignment/2.8.json",
       "sentence_alignment": "sentence_alignment/2.8.json",
       "text": "text/2.8.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.9",
@@ -171,7 +171,7 @@
       "word_alignment": "word_alignment/2.9.json",
       "sentence_alignment": "sentence_alignment/2.9.json",
       "text": "text/2.9.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "2.10",
@@ -180,7 +180,7 @@
       "word_alignment": "word_alignment/2.10.json",
       "sentence_alignment": "sentence_alignment/2.10.json",
       "text": "text/2.10.txt",
-      "subfolder": "Kanda 2"
+      "section": "Kanda 2"
     },
     {
       "id": "3.1",
@@ -189,7 +189,7 @@
       "word_alignment": "word_alignment/3.1.json",
       "sentence_alignment": "sentence_alignment/3.1.json",
       "text": "text/3.1.txt",
-      "subfolder": "Kanda 3"
+      "section": "Kanda 3"
     },
     {
       "id": "3.2",
@@ -198,7 +198,7 @@
       "word_alignment": "word_alignment/3.2.json",
       "sentence_alignment": "sentence_alignment/3.2.json",
       "text": "text/3.2.txt",
-      "subfolder": "Kanda 3"
+      "section": "Kanda 3"
     },
     {
       "id": "3.3",
@@ -207,7 +207,7 @@
       "word_alignment": "word_alignment/3.3.json",
       "sentence_alignment": "sentence_alignment/3.3.json",
       "text": "text/3.3.txt",
-      "subfolder": "Kanda 3"
+      "section": "Kanda 3"
     },
     {
       "id": "3.4",
@@ -216,7 +216,7 @@
       "word_alignment": "word_alignment/3.4.json",
       "sentence_alignment": "sentence_alignment/3.4.json",
       "text": "text/3.4.txt",
-      "subfolder": "Kanda 3"
+      "section": "Kanda 3"
     },
     {
       "id": "3.5",
@@ -225,7 +225,7 @@
       "word_alignment": "word_alignment/3.5.json",
       "sentence_alignment": "sentence_alignment/3.5.json",
       "text": "text/3.5.txt",
-      "subfolder": "Kanda 3"
+      "section": "Kanda 3"
     }
   ]
 }

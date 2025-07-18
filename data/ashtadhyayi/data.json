@@ -1,5 +1,5 @@
 {
-  "name": "Aṣṭādhyāyī",
+  "name": "अष्टाध्यायी",
   "description": "Text Source: <a href='https://ashtadhyayi.com'>https://ashtadhyayi.com</a>\n<br>\nAudio Source: <a href='https://surasa.net'>https://surasa.net</a>\n<br>\nAligned by: Hrishikesh Terdalkar",
   "data": [
     {
@@ -9,7 +9,7 @@
       "text": "text/01a-ashtaadhyaayii-1-1.txt",
       "word_alignment": "word_alignment/01a-ashtaadhyaayii-1-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 1"
+      "section": "Adhyāya 1"
     },
     {
       "id": "1.2",
@@ -18,7 +18,7 @@
       "text": "text/01b-ashtaadhyaayii-1-2.txt",
       "word_alignment": "word_alignment/01b-ashtaadhyaayii-1-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 1"
+      "section": "Adhyāya 1"
     },
     {
       "id": "1.3",
@@ -27,7 +27,7 @@
       "text": "text/01c-ashtaadhyaayii-1-3.txt",
       "word_alignment": "word_alignment/01c-ashtaadhyaayii-1-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 1"
+      "section": "Adhyāya 1"
     },
     {
       "id": "1.4",
@@ -36,7 +36,7 @@
       "text": "text/01d-ashtaadhyaayii-1-4.txt",
       "word_alignment": "word_alignment/01d-ashtaadhyaayii-1-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 1"
+      "section": "Adhyāya 1"
     },
     {
       "id": "2.1",
@@ -45,7 +45,7 @@
       "text": "text/02a-ashtaadhyaayii-2-1.txt",
       "word_alignment": "word_alignment/02a-ashtaadhyaayii-2-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 2"
+      "section": "Adhyāya 2"
     },
     {
       "id": "2.2",
@@ -54,7 +54,7 @@
       "text": "text/02b-ashtaadhyaayii-2-2.txt",
       "word_alignment": "word_alignment/02b-ashtaadhyaayii-2-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 2"
+      "section": "Adhyāya 2"
     },
     {
       "id": "2.3",
@@ -63,7 +63,7 @@
       "text": "text/02c-ashtaadhyaayii-2-3.txt",
       "word_alignment": "word_alignment/02c-ashtaadhyaayii-2-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 2"
+      "section": "Adhyāya 2"
     },
     {
       "id": "2.4",
@@ -72,7 +72,7 @@
       "text": "text/02d-ashtaadhyaayii-2-4.txt",
       "word_alignment": "word_alignment/02d-ashtaadhyaayii-2-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 2"
+      "section": "Adhyāya 2"
     },
     {
       "id": "3.1",
@@ -81,7 +81,7 @@
       "text": "text/03a-ashtaadhyaayii-3-1.txt",
       "word_alignment": "word_alignment/03a-ashtaadhyaayii-3-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 3"
+      "section": "Adhyāya 3"
     },
     {
       "id": "3.2",
@@ -90,7 +90,7 @@
       "text": "text/03b-ashtaadhyaayii-3-2.txt",
       "word_alignment": "word_alignment/03b-ashtaadhyaayii-3-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 3"
+      "section": "Adhyāya 3"
     },
     {
       "id": "3.3",
@@ -99,7 +99,7 @@
       "text": "text/03c-ashtaadhyaayii-3-3.txt",
       "word_alignment": "word_alignment/03c-ashtaadhyaayii-3-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 3"
+      "section": "Adhyāya 3"
     },
     {
       "id": "3.4",
@@ -108,7 +108,7 @@
       "text": "text/03d-ashtaadhyaayii-3-4.txt",
       "word_alignment": "word_alignment/03d-ashtaadhyaayii-3-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 3"
+      "section": "Adhyāya 3"
     },
     {
       "id": "4.1",
@@ -117,7 +117,7 @@
       "text": "text/04a-ashtaadhyaayii-4-1.txt",
       "word_alignment": "word_alignment/04a-ashtaadhyaayii-4-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 4"
+      "section": "Adhyāya 4"
     },
     {
       "id": "4.2",
@@ -126,7 +126,7 @@
       "text": "text/04b-ashtaadhyaayii-4-2.txt",
       "word_alignment": "word_alignment/04b-ashtaadhyaayii-4-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 4"
+      "section": "Adhyāya 4"
     },
     {
       "id": "4.3",
@@ -135,7 +135,7 @@
       "text": "text/04c-ashtaadhyaayii-4-3.txt",
       "word_alignment": "word_alignment/04c-ashtaadhyaayii-4-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 4"
+      "section": "Adhyāya 4"
     },
     {
       "id": "4.4",
@@ -144,7 +144,7 @@
       "text": "text/04d-ashtaadhyaayii-4-4.txt",
       "word_alignment": "word_alignment/04d-ashtaadhyaayii-4-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 4"
+      "section": "Adhyāya 4"
     },
     {
       "id": "5.1",
@@ -153,7 +153,7 @@
       "text": "text/05a-ashtaadhyaayii-5-1.txt",
       "word_alignment": "word_alignment/05a-ashtaadhyaayii-5-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 5"
+      "section": "Adhyāya 5"
     },
     {
       "id": "5.2",
@@ -162,7 +162,7 @@
       "text": "text/05b-ashtaadhyaayii-5-2.txt",
       "word_alignment": "word_alignment/05b-ashtaadhyaayii-5-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 5"
+      "section": "Adhyāya 5"
     },
     {
       "id": "5.3",
@@ -171,7 +171,7 @@
       "text": "text/05c-ashtaadhyaayii-5-3.txt",
       "word_alignment": "word_alignment/05c-ashtaadhyaayii-5-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 5"
+      "section": "Adhyāya 5"
     },
     {
       "id": "5.4",
@@ -180,7 +180,7 @@
       "text": "text/05d-ashtaadhyaayii-5-4.txt",
       "word_alignment": "word_alignment/05d-ashtaadhyaayii-5-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 5"
+      "section": "Adhyāya 5"
     },
     {
       "id": "6.1",
@@ -189,7 +189,7 @@
       "text": "text/06a-ashtaadhyaayii-6-1.txt",
       "word_alignment": "word_alignment/06a-ashtaadhyaayii-6-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 6"
+      "section": "Adhyāya 6"
     },
     {
       "id": "6.2",
@@ -198,7 +198,7 @@
       "text": "text/06b-ashtaadhyaayii-6-2.txt",
       "word_alignment": "word_alignment/06b-ashtaadhyaayii-6-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 6"
+      "section": "Adhyāya 6"
     },
     {
       "id": "6.3",
@@ -207,7 +207,7 @@
       "text": "text/06c-ashtaadhyaayii-6-3.txt",
       "word_alignment": "word_alignment/06c-ashtaadhyaayii-6-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 6"
+      "section": "Adhyāya 6"
     },
     {
       "id": "6.4",
@@ -216,7 +216,7 @@
       "text": "text/06d-ashtaadhyaayii-6-4.txt",
       "word_alignment": "word_alignment/06d-ashtaadhyaayii-6-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 6"
+      "section": "Adhyāya 6"
     },
     {
       "id": "7.1",
@@ -225,7 +225,7 @@
       "text": "text/07a-ashtaadhyaayii-7-1.txt",
       "word_alignment": "word_alignment/07a-ashtaadhyaayii-7-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 7"
+      "section": "Adhyāya 7"
     },
     {
       "id": "7.2",
@@ -234,7 +234,7 @@
       "text": "text/07b-ashtaadhyaayii-7-2.txt",
       "word_alignment": "word_alignment/07b-ashtaadhyaayii-7-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 7"
+      "section": "Adhyāya 7"
     },
     {
       "id": "7.3",
@@ -243,7 +243,7 @@
       "text": "text/07c-ashtaadhyaayii-7-3.txt",
       "word_alignment": "word_alignment/07c-ashtaadhyaayii-7-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 7"
+      "section": "Adhyāya 7"
     },
     {
       "id": "7.4",
@@ -252,7 +252,7 @@
       "text": "text/07d-ashtaadhyaayii-7-4.txt",
       "word_alignment": "word_alignment/07d-ashtaadhyaayii-7-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 7"
+      "section": "Adhyāya 7"
     },
     {
       "id": "8.1",
@@ -261,7 +261,7 @@
       "text": "text/08a-ashtaadhyaayii-8-1.txt",
       "word_alignment": "word_alignment/08a-ashtaadhyaayii-8-1.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 8"
+      "section": "Adhyāya 8"
     },
     {
       "id": "8.2",
@@ -270,7 +270,7 @@
       "text": "text/08b-ashtaadhyaayii-8-2.txt",
       "word_alignment": "word_alignment/08b-ashtaadhyaayii-8-2.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 8"
+      "section": "Adhyāya 8"
     },
     {
       "id": "8.3",
@@ -279,7 +279,7 @@
       "text": "text/08c-ashtaadhyaayii-8-3.txt",
       "word_alignment": "word_alignment/08c-ashtaadhyaayii-8-3.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 8"
+      "section": "Adhyāya 8"
     },
     {
       "id": "8.4",
@@ -288,7 +288,7 @@
       "text": "text/08d-ashtaadhyaayii-8-4.txt",
       "word_alignment": "word_alignment/08d-ashtaadhyaayii-8-4.json",
       "sentence_alignment": "",
-      "subfolder": "Adhyāya 8"
+      "section": "Adhyāya 8"
     }
   ]
 }
