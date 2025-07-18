@@ -1,4 +1,5 @@
 const select = document.getElementById('scriptSelect');
+const nodeList = document.querySelectorAll(".transliteratable");
 
 // Update select options from object properties
 function updateSelectFromObject(selectElement, obj) {
@@ -17,13 +18,9 @@ function updateSelectFromObject(selectElement, obj) {
 // Callback function that handles the change
 function handleSelectChange(event) {
     const newScript = event.target.value;
-
-    const nodeList = document.querySelectorAll(".align-text");
-
     for(const elem of nodeList) {
         elem.innerHTML = Sanscript.t(elem.innerHTML, previousScript, newScript);
     }
-    // Update the previous value for next time
     previousScript = newScript;
 }
 
